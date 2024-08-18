@@ -26,7 +26,7 @@ export default function Ebook() {
                 <div>
                     <div>
                         <div className="text-yellow-600 text-xl pl-10">E-book</div>
-                        <div className="text-center text-3xl pt-2">"Técnico Educador da área da beleza"</div>
+                        <div className="text-center text-3xl pt-2">Técnico Educador da área da beleza</div>
                     </div>
                     <div className="flex justify-around py-4 space-x-20">
                         <Card className="bg-bege-100 w-1/4">
