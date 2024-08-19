@@ -10,7 +10,7 @@ export default function Contato(){
                 <div className="text-center text-5xl">Estamos a um clique de distância. Envie sua mensagem!</div>
                 <div className="flex justify-center my-10">
                     <BotaoWpp 
-                    phoneNumber="5524111111111"
+                    phoneNumber="5524993351765"
                     message="Olá, gostaria de mais informações!"
                     />
                 </div>
