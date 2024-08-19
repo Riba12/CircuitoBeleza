@@ -12,7 +12,7 @@ export default function Head({ scrollToComponent }: HeadProps) {
     return (
         <section className="flex justify-around">
             <div className="w-1/5 hover:bg-bege-100">
-                <button className="w-full pt-2" onClick={() => scrollToComponent('4')}>Redes Sociais</button>
+                <button className="w-full pt-2" onClick={() => scrollToComponent('5')}>Redes Sociais</button>
             </div>
             <Separator orientation="vertical" className="pt-10" />
             <div className="w-1/5 hover:bg-bege-100">
@@ -28,11 +28,7 @@ export default function Head({ scrollToComponent }: HeadProps) {
             </div>
             <Separator orientation="vertical" className="pt-10" />
             <div className="w-1/5 hover:bg-bege-100">
-                <Link href='./contato' passHref legacyBehavior>
-                    <a target='_blank' className="flex justify-center pt-2">
-                        Contato
-                    </a>
-                </Link>
+                <button className="w-full pt-2" onClick={() => scrollToComponent('4')}>Contato</button>
             </div>
         </section>
     );

@@ -36,10 +36,10 @@ export default function Home() {
       <div id="3">
         <Cursos />
       </div>
-      <div id="5">
+      <div id="4">
         <Contato />
       </div>
-      <div id="4">
+      <div id="5">
         <Footer />
       </div>
       <div className="fixed bottom-20 left-5">
