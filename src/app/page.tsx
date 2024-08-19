@@ -1,4 +1,5 @@
 'use client';
+import Contato from "@/components/contato";
 import Cursos from "@/components/cursos";
 import Depo from "@/components/depo";
 import Ebook from "@/components/ebook";
@@ -6,6 +7,7 @@ import Footer from "@/components/footer";
 import Head from "@/components/head";
 import Landing from "@/components/landing";
 import LogoFixa from "@/components/logofixa";
+import Quem from "@/components/quem";
 
 
 function ScrollToComponent(componentId: string) {
@@ -24,6 +26,7 @@ export default function Home() {
     <main className="min-w-max font-century">
       <Head scrollToComponent={ScrollToComponent} />
       <Landing />
+      <Quem />
       <div id="1">
         <Ebook />
       </div>
@@ -32,6 +35,9 @@ export default function Home() {
       </div>
       <div id="3">
         <Cursos />
+      </div>
+      <div id="5">
+        <Contato />
       </div>
       <div id="4">
         <Footer />

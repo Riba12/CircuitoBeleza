@@ -1,5 +1,6 @@
 'use client'
 
+import { Laptop, Smartphone, Tablet, Sparkles } from 'lucide-react';
 import {
     Carousel,
     CarouselContent,
@@ -35,22 +36,24 @@ export default function Depo() {
                 <div className="flex justify-center">
                     <Carousel
                         plugins={[plugin.current]}
-                        className="w-full max-w-xs"
+                        className="w-full max-w-md"
                         onMouseEnter={plugin.current.stop}
                         onMouseLeave={plugin.current.reset}
                     >
-                        <CarouselContent>
+                        <CarouselContent >
                             {Array.from({ length: 5 }).map((_, index) => (
-                                <CarouselItem key={index}>
+                                <CarouselItem key={index} >
                                     <div className="p-1">
                                         <Card>
-                                            <CardContent className="flex aspect-square items-center justify-center p-6">
+                                            <CardContent className="flex items-center justify-center p-6">
                                                 <div className="flex flex-col text-xl">
-                                                    <div className="flex justify-center">
-                                                        <img src={depo[index]} className="rounded-md w-32" />
-                                                    </div>
-                                                    <div className="mt-4">
-                                                        {texto[index]}
+                                                    <div className='flex space-x-10'>
+                                                        <div className="flex justify-center">
+                                                            <img src={depo[index]} className="rounded-full w-80 h-28 " />
+                                                        </div>
+                                                        <div className="mt-4 ">
+                                                            {texto[index]}
+                                                        </div>
                                                     </div>
                                                     <div className="pt-6 text-3xl text-center">
                                                         {nome[index]}
@@ -69,10 +72,20 @@ export default function Depo() {
                 <div>
                     <div className="text-yellow-600 text-xl">E-book</div>
                     <div className="text-5xl my-4">Técnico Educador da área da beleza</div>
-                    <div className="text-center space-y-8">
+                    <div className="text-center space-y-8 text-2xl">
                         <div>
-                            O INVENTISMENTO PARA MUDAR SUA VIDA:
+                            O INVESTIMENTO PARA MUDAR SUA VIDA:
                         </div>
+                        <div>
+                            <div className='flex justify-center space-x-10'>
+                                <Tablet className='mt-5' />
+                                <Laptop className='w-12 h-12' />
+                                <Smartphone className='mt-5' />
+                            </div>
+                            <div className='my-5'>Aproveite o conteúdo em qualquer dispositivo.</div>
+                        </div>
+                        <div className='text-red-600'>De <del>R$ 197,00</del></div>
+                        <div className='text-3xl'>POR APENAS</div>
                         <div className="text-marrom-100 text-7xl">
                             R$ 97,00
                         </div>
@@ -81,6 +94,18 @@ export default function Depo() {
                         </div>
                         <div>
                             <Button className="text-2xl p-6">Quero mudar de vida agora</Button>
+                        </div>
+                        <div className=''>
+                            <div className='flex justify-center space-x-5 my-4'>
+                                <Sparkles className='mt-5' />
+                                <Sparkles className='w-12 h-12 pb-2' />
+                                <Sparkles className='mt-5' />
+                            </div>
+                            <div className='text-4xl mb-4'>GARANTIA</div>
+                            <div className='p-2 border-4 border-bege-100 border-y-marrom-100 space-y-5'>
+                                <h1 className='text-5xl '>Garantia incondicional de 7 dias</h1>
+                                <h2 className='text-base'>Seu dinheiro de volta <b>sem perguntas</b> até 7 dias após a compra</h2>
+                            </div>
                         </div>
                     </div>
                 </div>

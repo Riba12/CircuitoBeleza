@@ -37,7 +37,7 @@ export default function Cursos() {
                 <div className="flex justify-center">
                     <img src="fed.png" className="w-60" alt="Escola Filiada - Federação das escolas de profissionais de cabeleireiros e similares do Brasil - Internacional" />
                 </div>
-                <div className="h-auto">
+                <div className="h-auto border-8 border-bege-100 border-y-marrom-100">
                     <Accordion type="multiple"  className="w-full" >
                         <AccordionItem value="item-1" className="text-2xl">
                             <AccordionTrigger onClick={() => {Scroll()}}>Curso de Mechas em cabelos crespos e cacheados
