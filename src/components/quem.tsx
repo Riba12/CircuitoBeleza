@@ -11,19 +11,19 @@ export default function Quem() {
                     </div>
                     <div className="flex ">
                         <div className="w-1/3 place-content-center">
-                            <img src="book2.png" className="rounded-md w-24 md:ml-10 mt-28" />
+                            <img src="book2.png" className="rounded-md w-24 md:w-48 md:ml-10 md:mt-28" />
                         </div>
                         <div className="w-2/3">
                             <div className="flex my-5 space-x-1 md:space-x-5 text-xs">
-                                <div >
+                                <div className="md:mt-10">
                                     <h1 className="text-center md:text-xl"><b>DONOS DE SALÃO</b></h1>
                                     <h2 className="pt-2 md:pt-10">Que querem aprimorar a gestão de seus negócios e otimizar os processos internos para aumentar a satisfação dos clientes e a rentabilidade do salão.</h2>
                                 </div>
-                                <div>
+                                <div className="md:mt-10">
                                     <h1 className="text-center md:text-xl"><b>PROFISSIONAIS DA BELEZA</b></h1>
                                     <h2 className="pt-2">Que desejam expandir sua atuação, se tornando educadores e capacitando outros profissionais na área, além de reduzir custos e otimizar processos no negócio.</h2>
                                 </div>
-                                <div>
+                                <div className="md:mt-10"> 
                                     <h1 className="text-center md:text-xl"><b>GESTORES DE SALÃO</b></h1>
                                     <h2 className="pt-2">Que já atendem clientes e querem melhorar a qualidade dos serviços oferecidos, aumentando a fidelidade dos clientes e a eficiência operacional.</h2>
                                 </div>

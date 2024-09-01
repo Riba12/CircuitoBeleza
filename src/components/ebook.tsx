@@ -68,11 +68,11 @@ export default function Ebook() {
                             </CardFooter>
                         </Card>
                     </div>
-                    <div className="flex bg-bege-100 w-full justify-center rounded-md">
+                    <div className="flex bg-bege-100 w-full place-content-center rounded-md">
                         <NavigationMenu>
                             <NavigationMenuList className="w-[80px] md:w-1/4">
                                 <NavigationMenuItem >
-                                    <NavigationMenuTrigger className="text-[8px] md:text-1xl bg-bege-100">1. Completo</NavigationMenuTrigger>
+                                    <NavigationMenuTrigger className="text-[8px] md:text-xl bg-bege-100">1. Completo</NavigationMenuTrigger>
                                     <NavigationMenuContent>
                                         <div className="w-52 p-4">Aborda todos os aspectos da área da beleza, desde técnicas básicas até as mais avançadas.</div>
                                     </NavigationMenuContent>
@@ -80,9 +80,9 @@ export default function Ebook() {
                             </NavigationMenuList>
                         </NavigationMenu>
                         <NavigationMenu>
-                            <NavigationMenuList className="w-[80px] md:w-1/4">
+                            <NavigationMenuList className="w-[80px] md:w-1/4 ml-4">
                                 <NavigationMenuItem>
-                                    <NavigationMenuTrigger className="text-[8px]  bg-bege-100">2. Linguagem Clara</NavigationMenuTrigger>
+                                    <NavigationMenuTrigger className="text-[8px] md:text-xl bg-bege-100">2. Linguagem Clara</NavigationMenuTrigger>
                                     <NavigationMenuContent>
                                         <div className="w-52 p-4">Escrita de forma simples e didática, fácil de entender e aplicar na prática.</div>
                                     </NavigationMenuContent>
@@ -92,7 +92,7 @@ export default function Ebook() {
                         <NavigationMenu>
                             <NavigationMenuList className="w-[80px] md:w-1/4">
                                 <NavigationMenuItem>
-                                    <NavigationMenuTrigger className="text-[8px] md:text-1xl bg-bege-100">3. Atualizado</NavigationMenuTrigger>
+                                    <NavigationMenuTrigger className="text-[8px] md:text-xl bg-bege-100">3. Atualizado</NavigationMenuTrigger>
                                     <NavigationMenuContent>
                                         <div className="w-52 p-4">Conteúdo atualizado com as últimas tendências e novidades do mercado.</div>
                                     </NavigationMenuContent>
@@ -102,7 +102,7 @@ export default function Ebook() {
                         <NavigationMenu>
                             <NavigationMenuList className="w-[80px] md:w-1/4">
                                 <NavigationMenuItem>
-                                    <NavigationMenuTrigger className="text-[8px] md:text-1xl bg-bege-100 ">4. Estratégias</NavigationMenuTrigger>
+                                    <NavigationMenuTrigger className="text-[8px] md:text-xl bg-bege-100 ">4. Estratégias</NavigationMenuTrigger>
                                     <NavigationMenuContent>
                                         <div className="w-52 p-4">Compartilhe dicas e estratégias práticas para alcançar o sucesso em sua carreira.</div>
                                     </NavigationMenuContent>

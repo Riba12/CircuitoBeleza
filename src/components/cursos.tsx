@@ -43,11 +43,11 @@ export default function Cursos() {
                             <AccordionTrigger onClick={() => {Scroll()}}>Curso de Mechas em cabelos crespos e cacheados
                             </AccordionTrigger>
                             <AccordionContent className="flex">
-                                <div><img src="curso1.png" className="w-96" /></div>
+                                <div className="place-content-center"><img src="curso1.png" className="w-96" /></div>
                                 <div>
-                                    <div className="text-center text-2xl p-5">25 e 26 de Agosto</div>
+                                    <div className="text-center md:text-2xl p-5">25 e 26 de Agosto</div>
                                     <div>
-                                        <Calendar mode="multiple" selected={datasMechas} />
+                                        <Calendar mode="multiple" selected={datasMechas} defaultMonth={data1}/>
                                     </div>
                                 </div>
                             </AccordionContent>
@@ -55,9 +55,9 @@ export default function Cursos() {
                         <AccordionItem value="item-2" className="text-2xl">
                             <AccordionTrigger onClick={() => {Scroll()}}>Curso de Spa dos Pés</AccordionTrigger>
                             <AccordionContent className="flex">
-                                <div><img src="curso2.png" className="w-96" /></div>
+                                <div className="place-content-center"><img src="curso2.png" className="w-96" /></div>
                                 <div>
-                                    <div className="text-center text-2xl p-5">01 de Setembro</div>
+                                    <div className="text-center md:text-2xl p-5">01 de Setembro</div>
                                     <div>
                                         <Calendar mode="single" selected={data3} defaultMonth={data3} />
                                     </div>
@@ -67,9 +67,9 @@ export default function Cursos() {
                         <AccordionItem value="item-3" className="text-2xl">
                             <AccordionTrigger onClick={() => {Scroll()}}>Segunda Edição do Master Class Expert em Crespos e Cacheados.</AccordionTrigger>
                             <AccordionContent className="flex">
-                                <div><img src="curso4.png" className="w-96" /></div>
+                                <div className="place-content-center"><img src="curso4.png" className="w-96" /></div>
                                 <div>
-                                    <div className="text-center text-2xl p-5">15/16 de Setembro</div>
+                                    <div className="text-center md:text-2xl p-5">15/16 de Setembro</div>
                                     <div>
                                         <Calendar mode="multiple" selected={datasMaster} defaultMonth={data3} />
                                     </div>
@@ -79,9 +79,9 @@ export default function Cursos() {
                         <AccordionItem value="item-4" className="text-2xl">
                             <AccordionTrigger onClick={() => {Scroll()}}>3ª Edição de Terapia Capilar</AccordionTrigger>
                             <AccordionContent className="flex">
-                                <div><img src="curso3.png" className="w-96" /></div>
+                                <div className="place-content-center"><img src="curso3.png" className="w-96" /></div>
                                 <div>
-                                    <div className="text-center text-2xl p-5">23/24/25 de Setembro</div>
+                                    <div className="text-center md:text-2xl p-5">23/24/25 de Setembro</div>
                                     <div className="ml-2">
                                         <Calendar mode="multiple" selected={datasCabelo} defaultMonth={data3} />
                                     </div>
