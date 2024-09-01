@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Footer() {
 
     return (
-        <section className='bg-black text-branco-100 flex justify-between mt-10'>
+        <section className='bg-black text-branco-100 flex justify-between mt-10 text-[10px] md:text-base'>
             <div className='flex p-2 space-x-1 mt-2'>
                 <Link href='https://www.instagram.com/circuitodabeleza_/' passHref legacyBehavior>
                     <a target='_blank'>
@@ -22,7 +22,7 @@ export default function Footer() {
                     </a>
                 </Link>
             </div>
-            <div className='p-2 mt-2 ml-32'>CIRCUITO DA BELEZA®</div>
+            <div className='p-2 mt-2 md:ml-32'>CIRCUITO DA BELEZA®</div>
             <div className='flex p-2 space-x-5'>
                 <div>(24) 99335-1765</div>
                 <div>Rua do Imperador 625 - 102<br/>Centro - Petrópolis-RJ</div>

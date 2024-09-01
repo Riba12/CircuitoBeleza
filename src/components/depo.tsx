@@ -32,11 +32,11 @@ export default function Depo() {
     return (
         <div className="flex bg-bege-100">
             <div className="grow"></div>
-            <section className="my-8">
+            <section className="my-8 w-full md:w-[960px]">
                 <div className="flex justify-center">
                     <Carousel
                         plugins={[plugin.current]}
-                        className="w-full max-w-md"
+                        className="w-2/3 md:w-full max-w-md"
                         onMouseEnter={plugin.current.stop}
                         onMouseLeave={plugin.current.reset}
                     >
@@ -46,7 +46,7 @@ export default function Depo() {
                                     <div className="p-1">
                                         <Card>
                                             <CardContent className="flex items-center justify-center p-6">
-                                                <div className="flex flex-col text-xl">
+                                                <div className="flex flex-col text-sm md:text-xl">
                                                     <div className='flex space-x-10'>
                                                         <div className="flex justify-center">
                                                             <img src={depo[index]} className="rounded-full w-80 h-28 " />
@@ -55,7 +55,7 @@ export default function Depo() {
                                                             {texto[index]}
                                                         </div>
                                                     </div>
-                                                    <div className="pt-6 text-3xl text-center">
+                                                    <div className="pt-6 text-sm font-bold md:text-3xl text-center">
                                                         {nome[index]}
                                                     </div>
                                                 </div>
@@ -71,8 +71,8 @@ export default function Depo() {
                 </div>
                 <div>
                     <div className="text-yellow-600 text-xl">E-book</div>
-                    <div className="text-5xl text-center my-4">Técnico Educador da área da beleza</div>
-                    <div className="text-center space-y-8 text-2xl">
+                    <div className="text-2xl md:text-5xl font-bold text-center my-4">Técnico Educador da área da beleza</div>
+                    <div className="text-center space-y-8 text-xl md:text-2xl">
                         <div>
                             O INVESTIMENTO PARA MUDAR SUA VIDA:
                         </div>
@@ -103,7 +103,7 @@ export default function Depo() {
                             </div>
                             <div className='text-4xl mb-4'>GARANTIA</div>
                             <div className='p-2 border-4 border-bege-100 border-y-marrom-100 space-y-5'>
-                                <h1 className='text-5xl '>Garantia incondicional de 7 dias</h1>
+                                <h1 className='text-3xl md:text-5xl '>Garantia incondicional de 7 dias</h1>
                                 <h2 className='text-base'>Seu dinheiro de volta <b>sem perguntas</b> até 7 dias após a compra</h2>
                             </div>
                         </div>
