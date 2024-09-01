@@ -14,7 +14,7 @@ import {
 } from "@/components/ui/navigation-menu"
 
 import { Speech, Scissors, ChartNoAxesCombined } from 'lucide-react';
-import { Button } from "./ui/button";
+import Link from "next/link";
 
 
 export default function Ebook() {
@@ -115,7 +115,11 @@ export default function Ebook() {
                         <h2 className="text-lg">Em média, profissionais que investem em formação e especializações na área da beleza podem alcançar um aumento significativo de renda de até 60%</h2>
                     </div>
                     <div className=" flex justify-center m-2 p-4">
-                        <Button className="bg-black text-2xl p-8">Garanta o seu agora</Button>
+                    <Link href="https://www.instagram.com/circuitodabeleza_/" passHref legacyBehavior >
+                        <a target='_blank' className="w-96 py-4 rounded-full text-center bg-gray-800 text-white text-xl md:text-3xl hover:bg-gray-400">
+                            Garanta o seu agora
+                        </a>
+                    </Link>
                     </div>
                 </div>
             </section>

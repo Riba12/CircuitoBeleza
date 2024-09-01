@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "./ui/button";
 
 
@@ -24,7 +25,11 @@ export default function Landing() {
                     </div>
                 </div>
                 <div className="flex justify-center h-1/5 m-2 pt-8">
-                    <Button className="w-96 py-8 rounded-full text-3xl hover:bg-gray-400">Saber mais</Button>
+                    <Link href="https://www.instagram.com/circuitodabeleza_/" passHref legacyBehavior >
+                        <a target='_blank' className="w-72 py-4 rounded-full text-center bg-gray-800 text-white text-xl md:text-3xl hover:bg-gray-400">
+                            Saber mais
+                        </a>
+                    </Link>
                 </div>
                 <div className="text-center font-bold text-2xl p-4 ">
                     O mercado de beleza no Brasil é o quarto maior do mundo.

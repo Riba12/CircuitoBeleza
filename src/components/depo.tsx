@@ -12,7 +12,7 @@ import Autoplay from "embla-carousel-autoplay"
 
 import { Card, CardContent } from "@/components/ui/card"
 import { useRef } from "react";
-import { Button } from "./ui/button";
+import Link from "next/link";
 
 export default function Depo() {
 
@@ -93,7 +93,11 @@ export default function Depo() {
                             ou 5x de R$ 19,40
                         </div>
                         <div>
-                            <Button className="text-2xl p-6">Quero mudar de vida agora</Button>
+                            <Link href="https://www.instagram.com/circuitodabeleza_/" passHref legacyBehavior >
+                                <a target='_blank' className="w-96 py-4 rounded-full text-center bg-gray-800 text-white text-xl md:text-3xl hover:bg-gray-400">
+                                    Quero mudar de vida agora
+                                </a>
+                            </Link>
                         </div>
                         <div className=''>
                             <div className='flex justify-center space-x-5 my-4'>
