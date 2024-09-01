@@ -5,9 +5,9 @@ export default function Quem() {
         <>
             <div className="flex my-10">
                 <div className="grow"></div>
-                <section className="flex w-[960px] space-x-5">
+                <section className="flex w-[685px] md:w-[960px] space-x-5">
                     <div className="w-1/3 place-content-center">
-                        <img src="book2.png" className="rounded-md"/>
+                        <img src="book2.png" className="rounded-md w-52 ml-7 md:ml-10 mt-28"/>
                     </div>
                     <div className="w-2/3">
                         <div className="text-5xl text-center">Pra quem é o Técnico Educador da área da beleza?</div>

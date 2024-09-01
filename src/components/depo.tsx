@@ -71,7 +71,7 @@ export default function Depo() {
                 </div>
                 <div>
                     <div className="text-yellow-600 text-xl">E-book</div>
-                    <div className="text-5xl my-4">Técnico Educador da área da beleza</div>
+                    <div className="text-5xl text-center my-4">Técnico Educador da área da beleza</div>
                     <div className="text-center space-y-8 text-2xl">
                         <div>
                             O INVESTIMENTO PARA MUDAR SUA VIDA:

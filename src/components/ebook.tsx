@@ -22,7 +22,7 @@ export default function Ebook() {
     return (
         <div className="bg-branco-100 flex">
             <div className="grow"></div>
-            <section className="w-[960px] p-10">
+            <section className="w-[685px] md:w-[960px] p-10">
                 <div>
                     <div>
                         <div className="text-yellow-600 text-xl pl-10">E-book</div>
@@ -68,11 +68,11 @@ export default function Ebook() {
                             </CardFooter>
                         </Card>
                     </div>
-                    <div className="flex place-content-center space-x-2 m-4 bg-bege-100">
+                    <div className="flex bg-bege-100 w-[500px]">
                         <NavigationMenu >
                             <NavigationMenuList>
                                 <NavigationMenuItem >
-                                    <NavigationMenuTrigger className="text-1xl bg-bege-100">1. Conteúdo Completo</NavigationMenuTrigger>
+                                    <NavigationMenuTrigger className="text-1xl bg-bege-100">1. Completo</NavigationMenuTrigger>
                                     <NavigationMenuContent>
                                         <div className="w-52 p-4">Aborda todos os aspectos da área da beleza, desde técnicas básicas até as mais avançadas.</div>
                                     </NavigationMenuContent>
@@ -92,7 +92,7 @@ export default function Ebook() {
                         <NavigationMenu>
                             <NavigationMenuList>
                                 <NavigationMenuItem>
-                                    <NavigationMenuTrigger className="text-1xl bg-bege-100">3. Atualizado e Relevante</NavigationMenuTrigger>
+                                    <NavigationMenuTrigger className="text-1xl bg-bege-100">3. Atualizado</NavigationMenuTrigger>
                                     <NavigationMenuContent>
                                         <div className="w-52 p-4">Conteúdo atualizado com as últimas tendências e novidades do mercado.</div>
                                     </NavigationMenuContent>
@@ -102,7 +102,7 @@ export default function Ebook() {
                         <NavigationMenu>
                             <NavigationMenuList>
                                 <NavigationMenuItem>
-                                    <NavigationMenuTrigger className="text-1xl bg-bege-100">4. Dicas e Estratégias</NavigationMenuTrigger>
+                                    <NavigationMenuTrigger className="text-1xl bg-bege-100">4. Estratégias</NavigationMenuTrigger>
                                     <NavigationMenuContent>
                                         <div className="w-52 p-4">Compartilhe dicas e estratégias práticas para alcançar o sucesso em sua carreira.</div>
                                     </NavigationMenuContent>
@@ -110,7 +110,7 @@ export default function Ebook() {
                             </NavigationMenuList>
                         </NavigationMenu>
                     </div>
-                    <div className="bg-marrom-100 text-center text-branco-100 text-xl rounded-md p-4 my-14 ml-3 w-[855px]">
+                    <div className="bg-marrom-100 text-center text-branco-100 text-xl rounded-md p-4 my-14 ml-3 md:w-[855px]">
                         <h1 className="text-2xl"> DESCUBRA OPORTUNIDADES PARA GANHAR MUITO MAIS!</h1><br />
                         <h2 className="text-lg">Em média, profissionais que investem em formação e especializações na área da beleza podem alcançar um aumento significativo de renda de até 60%</h2>
                     </div>

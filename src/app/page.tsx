@@ -23,7 +23,7 @@ function ScrollToComponent(componentId: string) {
 
 export default function Home() {
   return (
-    <main className="min-w-max font-century">
+    <main className="w-[685px] md:min-w-max font-century">
       <Head scrollToComponent={ScrollToComponent} />
       <Landing />
       <Quem />
@@ -42,7 +42,7 @@ export default function Home() {
       <div id="5">
         <Footer />
       </div>
-      <div className="fixed bottom-20 left-5">
+      <div className="fixed bottom-20 left-3">
         <LogoFixa />
       </div>
     </main>
