@@ -11,10 +11,10 @@ export default function Quem() {
                     </div>
                     <div className="flex ">
                         <div className="w-1/3 place-content-center">
-                            <img src="book2.png" className="rounded-md w-24 md:w-48 md:ml-10 md:mt-28" />
+                            <img src="book2.png" className="rounded-md w-24 md:w-64 md:ml-8 md:mt-22" />
                         </div>
                         <div className="w-2/3">
-                            <div className="flex my-5 space-x-1 md:space-x-5 text-xs">
+                            <div className="flex my-5 space-x-1 md:space-x-5 text-xs md:text-base">
                                 <div className="md:mt-10">
                                     <h1 className="text-center md:text-xl"><b>DONOS DE SALÃO</b></h1>
                                     <h2 className="pt-2 md:pt-10">Que querem aprimorar a gestão de seus negócios e otimizar os processos internos para aumentar a satisfação dos clientes e a rentabilidade do salão.</h2>

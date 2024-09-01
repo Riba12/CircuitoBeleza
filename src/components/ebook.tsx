@@ -70,9 +70,9 @@ export default function Ebook() {
                     </div>
                     <div className="flex bg-bege-100 w-full place-content-center rounded-md">
                         <NavigationMenu>
-                            <NavigationMenuList className="w-[80px] md:w-1/4">
+                            <NavigationMenuList className="w-[80px] md:w-1/4 md:ml-20">
                                 <NavigationMenuItem >
-                                    <NavigationMenuTrigger className="text-[8px] md:text-xl bg-bege-100">1. Completo</NavigationMenuTrigger>
+                                    <NavigationMenuTrigger className="text-[8px] md:text-xl  bg-bege-100">1. Completo</NavigationMenuTrigger>
                                     <NavigationMenuContent>
                                         <div className="w-52 p-4">Aborda todos os aspectos da área da beleza, desde técnicas básicas até as mais avançadas.</div>
                                     </NavigationMenuContent>
