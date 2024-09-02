@@ -94,7 +94,7 @@ export default function Depo() {
                         </div>
                         <div>
                             <Link href="https://www.instagram.com/circuitodabeleza_/" passHref legacyBehavior >
-                                <a target='_blank' className="w-96 py-4 rounded-full text-center bg-gray-800 text-white text-xl md:text-3xl hover:bg-gray-400">
+                                <a target='_blank' className="w-96 p-4 rounded-full text-center bg-gray-800 text-white text-xl md:text-3xl hover:bg-gray-400">
                                     Quero mudar de vida agora
                                 </a>
                             </Link>
