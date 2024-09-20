@@ -98,7 +98,7 @@ export default function Cursos() {
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-3" className="text-2xl">
-                            <AccordionTrigger onClick={() => { Scroll() }}>Master Class</AccordionTrigger>
+                            <AccordionTrigger onClick={() => { Scroll() }}>Master Class - Expert em Crespos e Cacheados</AccordionTrigger>
                             <AccordionContent className="flex">
                                 <div className="place-content-center"><img src="curso4.png" className="w-96" /></div>
                                 <div>
