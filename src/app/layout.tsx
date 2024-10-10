@@ -9,6 +9,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <title>Circuito da Beleza</title>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -25,14 +26,14 @@ export default function RootLayout({
             `,
           }}
         />
-        <noscript>
+        {/* <noscript>
           <img
             height="1"
             width="1"
             style={{ display: 'none' }}
             src="https://www.facebook.com/tr?id=506961385431018&ev=PageView&noscript=1"
           />
-        </noscript>
+        </noscript> */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <body>
