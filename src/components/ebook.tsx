@@ -34,34 +34,34 @@ export default function Ebook() {
                         </div>
                     </div>
                     <div className="flex justify-around py-4 md:space-x-20">
-                        <Card className="bg-bege-100 w-1/4">
+                        <Card className="bg-bege-100 w-1/4 flex flex-col justify-between">
                             <CardHeader>
-                                <CardTitle className="text-sm md:text-2xl">Domine as Técnicas</CardTitle>
+                                <CardTitle className="text-[10px] md:text-2xl">Domine as técnicas para transmitir o seu conhecimento</CardTitle>
                             </CardHeader>
-                            <CardContent className="text-[12px] md:text-base">
+                            <CardContent className="text-[8px] md:text-base">
                                 <p>Aprenda as técnicas mais modernas e eficazes para oferecer serviços impecáveis.</p>
                             </CardContent>
-                            <CardFooter className="place-content-center pt-10">
+                            <CardFooter className="place-content-center ">
                                 <p><Scissors /></p>
                             </CardFooter>
                         </Card>
-                        <Card className="bg-bege-100 w-1/4">
+                        <Card className="bg-bege-100 w-1/4 flex flex-col justify-between">
                             <CardHeader>
-                                <CardTitle className="text-sm md:text-2xl">Entenda a Gestão</CardTitle>
+                                <CardTitle className="text-[10px] md:text-2xl text-center">Gestão de carreira</CardTitle>
                             </CardHeader>
-                            <CardContent className="text-[12px] md:text-base">
-                                <p>Desvende os segredos da gestão de um negócio de sucesso na área da beleza</p>
+                            <CardContent className="text-[8px] md:text-base">
+                                <p>Desvende os segredos de uma carreira de sucesso na área da beleza</p>
                             </CardContent>
-                            <CardFooter className="place-content-center pt-10">
+                            <CardFooter className="place-content-center ">
                                 <p><ChartNoAxesCombined /></p>
                             </CardFooter>
                         </Card>
-                        <Card className="bg-bege-100 w-1/4">
+                        <Card className="bg-bege-100 w-1/4 flex flex-col justify-between">
                             <CardHeader>
-                                <CardTitle className="text-sm md:text-2xl">Desenvolva sua Habilidade</CardTitle>
+                                <CardTitle className="text-[10px] md:text-2xl">Desenvolva sua Habilidade Educacional</CardTitle>
                             </CardHeader>
-                            <CardContent className="text-[12px] md:text-base">
-                                <p>Aprimore suas habilidades de comunicação, atendimento e relacionamento com o cliente.</p>
+                            <CardContent className="text-[8px] md:text-base">
+                                <p>Transmita o seu conhecimento com segurança elevando as técnicas dos seus alunos. Crescendo cada vez mais no mercado da beleza e seja reconhecido através das suas habilidades.</p>
                             </CardContent>
                             <CardFooter className="place-content-center">
                                 <p><Speech /></p>
@@ -74,7 +74,7 @@ export default function Ebook() {
                                 <NavigationMenuItem >
                                     <NavigationMenuTrigger className="text-[8px] md:text-xl  bg-bege-100">1. Completo</NavigationMenuTrigger>
                                     <NavigationMenuContent>
-                                        <div className="w-52 p-4">Aborda todos os aspectos da área da beleza, desde técnicas básicas até as mais avançadas.</div>
+                                        <div className="w-52 p-4">Aborda todos os aspectos educacionais para você ministrar um curso com segurança</div>
                                     </NavigationMenuContent>
                                 </NavigationMenuItem>
                             </NavigationMenuList>
@@ -94,7 +94,7 @@ export default function Ebook() {
                                 <NavigationMenuItem>
                                     <NavigationMenuTrigger className="text-[8px] md:text-xl bg-bege-100">3. Atualizado</NavigationMenuTrigger>
                                     <NavigationMenuContent>
-                                        <div className="w-52 p-4">Conteúdo atualizado com as últimas tendências e novidades do mercado.</div>
+                                        <div className="w-52 p-4">Conteúdo atualizado com as últimas tendências de posicionamento no mercado.</div>
                                     </NavigationMenuContent>
                                 </NavigationMenuItem>
                             </NavigationMenuList>
@@ -104,19 +104,21 @@ export default function Ebook() {
                                 <NavigationMenuItem>
                                     <NavigationMenuTrigger className="text-[8px] md:text-xl bg-bege-100 ">4. Estratégias</NavigationMenuTrigger>
                                     <NavigationMenuContent>
-                                        <div className="w-52 p-4">Compartilhe dicas e estratégias práticas para alcançar o sucesso em sua carreira.</div>
+                                        <div className="w-52 p-4">Aprenda as estratégias e aplique na prática todos os segredos de um educador de sucesso na área da beleza.</div>
                                     </NavigationMenuContent>
                                 </NavigationMenuItem>
                             </NavigationMenuList>
                         </NavigationMenu>
                     </div>
                     <div className="bg-marrom-100 text-center text-branco-100 text-xl rounded-md p-4 my-14 ml-3 md:w-[855px]">
-                        <h1 className="text-2xl"> DESCUBRA OPORTUNIDADES PARA GANHAR MUITO MAIS!</h1><br />
+                        <h1 className="text-2xl">AUMENTE SEU FATURAMENTO!!!</h1><br />
                         <h2 className="text-lg">Em média, profissionais que investem em formação e especializações na área da beleza podem alcançar um aumento significativo de renda de até 60%</h2>
+                        <br/>
+                        <h2 className="text-lg">Com a formação de Técnico Educador da Área da Beleza você pode aumentar a sua renda em até 150% - Segundo a coordenadora executiva do Circuito da Beleza Andréa Barbosa da Silva: “Já fechei contrato de 20 mil reais por 8 horas de palestra. Hoje no mercado tem profissionais que cobram 80 mil reais por 2 horas de palestra.”</h2>
                     </div>
                     <div className=" flex justify-center m-2 p-4">
                     <Link href="https://www.instagram.com/circuitodabeleza_/" passHref legacyBehavior >
-                        <a target='_blank' className="w-96 py-4 rounded-full text-center bg-gray-800 text-white text-xl md:text-3xl hover:bg-gray-400">
+                        <a target='_blank' className="w-96 py-4 rounded-full text-center bg-laranja-100 text-white text-xl md:text-3xl hover:bg-gray-400">
                             Garanta o seu agora
                         </a>
                     </Link>

@@ -28,6 +28,9 @@ const config = {
         marrom:{
           100: '#8C6F5B'
         },
+        laranja:{
+          100: '#ed7f32'
+        },
       },
       keyframes: {
         "accordion-down": {
