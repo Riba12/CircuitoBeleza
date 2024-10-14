@@ -36,10 +36,10 @@ export default function Ebook() {
                     <div className="flex justify-around py-4 md:space-x-20">
                         <Card className="bg-bege-100 w-1/4 flex flex-col justify-between">
                             <CardHeader>
-                                <CardTitle className="text-[10px] md:text-2xl">Domine as técnicas para transmitir o seu conhecimento</CardTitle>
+                                <CardTitle className="text-[10px] md:text-2xl">Domine as técnicas</CardTitle>
                             </CardHeader>
                             <CardContent className="text-[8px] md:text-base">
-                                <p>Aprenda as técnicas mais modernas e eficazes para oferecer serviços impecáveis.</p>
+                                <p>Domine as técnicas educacionais e transmita o seu conhecimento com maestria</p>
                             </CardContent>
                             <CardFooter className="place-content-center ">
                                 <p><Scissors /></p>
@@ -50,7 +50,7 @@ export default function Ebook() {
                                 <CardTitle className="text-[10px] md:text-2xl text-center">Gestão de carreira</CardTitle>
                             </CardHeader>
                             <CardContent className="text-[8px] md:text-base">
-                                <p>Desvende os segredos de uma carreira de sucesso na área da beleza</p>
+                                <p>Eleve o nível da sua carreira profissional e seja reconhecido como técnico educador da beleza em mais de 120 países</p>
                             </CardContent>
                             <CardFooter className="place-content-center ">
                                 <p><ChartNoAxesCombined /></p>
