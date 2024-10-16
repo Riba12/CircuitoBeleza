@@ -144,7 +144,7 @@ export default function Cursos() {
                     </div>
                     <div className="flex justify-between">
                         <img src="premio1.png" className="w-32 md:w-96 rounded-md"/>
-                        <img src="premio2.png" className="w-[242px] md:object-cover md:w-[576px] rounded-md"/>
+                        <img src="premio2.png" className="w-[226px] pr-2 md:object-cover md:w-[576px] rounded-md"/>
                     </div>
                 </div>
             </section>
