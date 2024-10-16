@@ -13,10 +13,10 @@ export default function Landing() {
                         <div className="flex justify-end mt-8">
                             <img src="logo1.png" className="w-12 md:w-32" />
                         </div>
-                        <div className="md:text-4xl font-jose p-2 text-center w-72 mt-12 md:w-[420px]">
+                        <div className="md:text-4xl font-jose md:p-2 md:text-center w-72 mt-12 md:w-[420px]">
                             Centro técnico de capacitação e aperfeiçoamento profissional.
                         </div>
-                        <div className="font-jose p-2 pl-10 w-72 md:w-[420px]">
+                        <div className="font-jose md:p-2 md:pl-10 w-72 md:w-[420px]">
                             Eleve sua carreira na área da beleza com técnicas práticas e conteúdos dinâmicos de alta qualidade que você precisa para ir mais longe.
                         </div>
                     </div>

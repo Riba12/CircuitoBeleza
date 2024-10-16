@@ -13,7 +13,7 @@ import {
     NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu"
 
-import { Speech, Scissors, ChartNoAxesCombined } from 'lucide-react';
+import { Speech, Scissors, ChartNoAxesCombined, Asterisk } from 'lucide-react';
 import Link from "next/link";
 
 
@@ -114,7 +114,7 @@ export default function Ebook() {
                         <h1 className="text-2xl">AUMENTE SEU FATURAMENTO!!!</h1><br />
                         <h2 className="text-lg">Em média, profissionais que investem em formação e especializações na área da beleza podem alcançar um aumento significativo de renda de até 60%</h2>
                         <br/>
-                        <h2 className="text-lg">Com a formação de Técnico Educador da Área da Beleza você pode aumentar a sua renda em até 150% - Segundo a coordenadora executiva do Circuito da Beleza Andréa Barbosa da Silva: “Já fechei contrato de 20 mil reais por 8 horas de palestra. Hoje no mercado tem profissionais que cobram 80 mil reais por 2 horas de palestra.”</h2>
+                        <h2 className="text-lg ">Com o de Técnico Educador da Área da Beleza você pode aumentar a sua renda em até 150% - Segundo a coordenadora executiva do Circuito da Beleza Andréa Barbosa da Silva: “Já fechei contrato de 20 mil reais por 8 horas de palestra. Hoje no mercado tem profissionais que cobram 80 mil reais por 2 horas de palestra.”</h2>
                     </div>
                     <div className=" flex justify-center m-2 p-4">
                     <Link href="https://www.instagram.com/circuitodabeleza_/" passHref legacyBehavior >
@@ -122,6 +122,10 @@ export default function Ebook() {
                             Garanta o seu agora
                         </a>
                     </Link>
+                    </div>
+                    <div className="flex text-xl">
+                        <Asterisk />
+                        O Ebook tem o conteúdo aprovado e validado pela FEPCSSP(Federação das Escolas Profissionais de Cabeleireiro e Similares)
                     </div>
                 </div>
             </section>
