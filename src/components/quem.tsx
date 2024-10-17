@@ -28,11 +28,11 @@ export default function Quem() {
                             <h1><b>Por que ser um TÉCNICO EDUCADOR da Beleza</b></h1>
                         </div>
                         <div className="space-y-2 text-xl mt-9 pr-2">
-                            <h3>● Pelo reconhecimento dos clientes, mantendo sua agenda sempre cheia.</h3>
-                            <h3>● Aumentando faturamento através de cursos e mentorias.</h3>
-                            <h3>● Novas oportunidades de negócios através de marcas de cosméticos renomadas.</h3>
-                            <h3>● Lançar sua própria marca de cosméticos.</h3>
-                            <h3>● Reconhecimento no mercado da beleza, participando de feiras e eventos.</h3>
+                            <h3>● Pelo reconhecimento dos clientes, mantendo sua agenda sempre cheia;</h3>
+                            <h3>● Aumentando faturamento através de cursos e mentorias;</h3>
+                            <h3>● Novas oportunidades de negócios através de marcas de cosméticos renomadas;</h3>
+                            <h3>● Lançar sua própria marca de cosméticos;</h3>
+                            <h3>● Reconhecimento no mercado da beleza, participando de feiras e eventos;</h3>
                             <h3>● Crescimento profissional em escala.</h3>
                         </div>
                     </div>
