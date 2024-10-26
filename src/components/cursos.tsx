@@ -137,13 +137,13 @@ export default function Cursos() {
                 </div>
                 <div>
                     <div className="my-5 flex ">
-                        <img src="logo_BH.png" className="rounded-full w-20 h-20 mt-10 md:mt-0 md:w-32 md:h-32" />
+                        <img src="logo_BH.png" className="rounded-full w-20 h-20 mt-10 ml-2 md:mt-0 md:w-32 md:h-32" />
                         <div className="md:pt-12 pl-5 text-3xl text-center">
                             Melhor Centro Técnico do Estado do Rio de Janeiro por 3 anos consecutivos<br/>(2021, 2022 e 2023)
                         </div>
                     </div>
                     <div className="flex justify-between">
-                        <img src="premio1.png" className="w-32 md:w-96 rounded-md"/>
+                        <img src="premio1.png" className="w-32 pl-2 md:w-96 rounded-md"/>
                         <img src="premio2.png" className="w-[226px] pr-2 md:object-cover md:w-[576px] rounded-md"/>
                     </div>
                 </div>
