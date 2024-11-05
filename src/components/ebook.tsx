@@ -82,7 +82,7 @@ export default function Ebook() {
                         <NavigationMenu>
                             <NavigationMenuList className="w-[80px] md:w-1/4 ml-4">
                                 <NavigationMenuItem>
-                                    <NavigationMenuTrigger className="text-[8px] md:text-xl bg-bege-100">2. Linguagem Clara</NavigationMenuTrigger>
+                                    <NavigationMenuTrigger className="text-[8px] md:text-xl pr-12 bg-bege-100">2. Linguagem Clara</NavigationMenuTrigger>
                                     <NavigationMenuContent>
                                         <div className="w-52 p-4">Escrita de forma simples e didática, fácil de entender e aplicar na prática.</div>
                                     </NavigationMenuContent>
@@ -110,7 +110,7 @@ export default function Ebook() {
                             </NavigationMenuList>
                         </NavigationMenu>
                     </div>
-                    <div className="bg-marrom-100 text-center text-branco-100 text-xl rounded-md p-4 my-14 ml-3 md:w-[855px]">
+                    <div className="bg-marrom-100 text-center text-branco-100 text-xl rounded-md p-4 my-14 mx-3 md:w-[855px]">
                         <h1 className="text-2xl">AUMENTE SEU FATURAMENTO!!!</h1><br />
                         <h2 className="text-lg">Em média, profissionais que investem em formação e especializações na área da beleza podem alcançar um aumento significativo de renda de até 60%</h2>
                         <br/>
