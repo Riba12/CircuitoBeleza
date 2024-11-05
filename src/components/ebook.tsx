@@ -72,7 +72,7 @@ export default function Ebook() {
                         <NavigationMenu>
                             <NavigationMenuList className="w-[80px] md:w-1/4 md:ml-20">
                                 <NavigationMenuItem >
-                                    <NavigationMenuTrigger className="text-[8px] md:text-xl  bg-bege-100">1. Completo</NavigationMenuTrigger>
+                                    <NavigationMenuTrigger className="text-[8px] md:text-xl pr-10 bg-bege-100">1. Completo</NavigationMenuTrigger>
                                     <NavigationMenuContent>
                                         <div className="w-52 p-4">Aborda todos os aspectos educacionais para você ministrar um curso com segurança</div>
                                     </NavigationMenuContent>
