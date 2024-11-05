@@ -93,7 +93,7 @@ export default function Depo() {
                             ou 5x de R$ 19,40
                         </div>
                         <div>
-                            <Link href="https://www.instagram.com/circuitodabeleza_/" passHref legacyBehavior >
+                            <Link href="https://pay.kiwify.com.br/fTT4C1K" passHref legacyBehavior >
                                 <a target='_blank' className="w-96 p-4 rounded-full text-center bg-laranja-100 text-white text-xl md:text-3xl hover:bg-gray-400">
                                     Quero mudar de vida agora
                                 </a>

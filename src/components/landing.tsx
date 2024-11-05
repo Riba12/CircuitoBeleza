@@ -25,7 +25,7 @@ export default function Landing() {
                     </div>
                 </div>
                 <div className="flex justify-center h-1/5 m-2 pt-8 font-jose">
-                    <Link href="https://www.instagram.com/circuitodabeleza_/" passHref legacyBehavior >
+                    <Link href="https://pay.kiwify.com.br/fTT4C1K" passHref legacyBehavior >
                         <a target='_blank' className="w-72 py-4 rounded-full text-center bg-laranja-100 text-white text-xl md:text-3xl hover:bg-gray-400">
                             Saber mais
                         </a>

@@ -117,7 +117,7 @@ export default function Ebook() {
                         <h2 className="text-lg ">Com o de Técnico Educador da Área da Beleza você pode aumentar a sua renda em até 150% - Segundo a coordenadora executiva do Circuito da Beleza Andréa Barbosa da Silva: “Já fechei contrato de 20 mil reais por 8 horas de palestra. Hoje no mercado tem profissionais que cobram 80 mil reais por 2 horas de palestra.”</h2>
                     </div>
                     <div className=" flex justify-center m-2 p-4">
-                    <Link href="https://www.instagram.com/circuitodabeleza_/" passHref legacyBehavior >
+                    <Link href="https://pay.kiwify.com.br/fTT4C1K" passHref legacyBehavior >
                         <a target='_blank' className="w-96 py-4 rounded-full text-center bg-laranja-100 text-white text-xl md:text-3xl hover:bg-gray-400">
                             Garanta o seu agora
                         </a>
