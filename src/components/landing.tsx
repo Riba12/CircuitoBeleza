@@ -1,15 +1,18 @@
 import Link from "next/link";
-import { Button } from "./ui/button";
+import Image from 'next/image'
+import chica from '../../public/chica1.png'
+import logo from '../../public/logo1.png'
 
 
 export default function Landing() {
 
     return (
-        <><div className="bg-bege-100 flex">
-            <div className="grow "></div>
-            <section className="flex flex-col font-medium p-10 w-full md:w-[960px] h-1/2">
-                <div className="h-4/5  flex justify-center space-x-40">
-                    <div className="flex flex-col justify-center w-14 md:w-1/3 ">
+        <>
+            <div className="bg-bege-100 flex">
+                <div className="grow "></div>
+                <section className="flex flex-row font-medium w-full h-[32rem] md:w-[960px] md:h-dvh ">
+                    {/* <div className="h-4/5  flex justify-center space-x-40">
+                    <div className="flex flex-col justify-center w-14 md:w-1/3 z-10">
                         <div className="flex justify-end mt-8">
                             <img src="logo1.png" className="w-12 md:w-32" />
                         </div>
@@ -21,7 +24,7 @@ export default function Landing() {
                         </div>
                     </div>
                     <div className="w-1/3">
-                        <img src="chica1.png" className="p-2 rounded-full" />
+                        <Image src={chica} className="p-2 rounded-full z-0"  alt="Mulher Morena"/>
                     </div>
                 </div>
                 <div className="flex justify-center h-1/5 m-2 pt-8 font-jose">
@@ -34,10 +37,31 @@ export default function Landing() {
                 <div className="text-center font-jose text-2xl p-4 ">
                     O Brasil é o quarto maior mercado de beleza no mundo. (FORBES)<br/>
                     A indústria de beleza brilhou no início de 2024, movimentando impressionantes R$ 667,5 milhões em exportações no primeiro bimestre, um salto de 7,7%. (ABIHPEC)
-                </div>
-            </section>
-            <div className="grow "></div>
-        </div>
+                </div> */}
+                    <div className="w-1/2 relative">
+                        <Image src={chica} fill alt="Mulher Morena" />
+                    </div>
+                    <div className="w-1/2 flex flex-col md:justify-evenly">
+                        <div className="animate-slideInLogo w-24 md:animate-slideInLogoBig md:w-44">
+                            <Image src={logo} alt="Logo" className="w-12 md:w-32" />
+                        </div>
+                        <div className="animate-slideInText w-4/5 md:text-4xl">
+                            Centro técnico de capacitação e aperfeiçoamento profissional.
+                        </div>
+                        <div className="animate-slideInText w-4/5 md:text-4xl">
+                            Eleve sua carreira na área da beleza com técnicas práticas e conteúdos dinâmicos de alta qualidade que você precisa para ir mais longe.
+                        </div>
+                        <div className="animate-slideInBT w-4/5 mt-10">
+                            <Link href="https://pay.kiwify.com.br/fTT4C1K" passHref legacyBehavior >
+                                <a target='_blank' className="w-72 p-4 rounded-full text-center bg-laranja-100 text-white text-xl md:text-3xl hover:bg-gray-400">
+                                    Saber mais
+                                </a>
+                            </Link>
+                        </div>
+                    </div>
+                </section>
+                <div className="grow "></div>
+            </div>
         </>
     );
 }
