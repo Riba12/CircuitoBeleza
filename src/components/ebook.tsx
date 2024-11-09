@@ -20,12 +20,12 @@ import Link from "next/link";
 export default function Ebook() {
 
     return (
-        <div className="bg-branco-100 flex">
+        <div className="bg-bege-500 flex">
             <div className="grow"></div>
-            <section className="w-full md:w-[960px] md:p-10">
+            <section className="w-full pt-5 md:w-[960px] md:p-10">
                 <div>
                     <div>
-                        <div className="text-yellow-600 text-xl pl-10">E-book</div>
+                        <div className="text-xl pl-10">E-book</div>
                         <div className="flex justify-between my-8 space-x-3">
                             <div className="text-center text-2xl md:text-4xl pt-2 flex flex-col justify-center">Técnico Educador da área da beleza</div>
                             <div className="flex justify-center ">
@@ -110,7 +110,7 @@ export default function Ebook() {
                             </NavigationMenuList>
                         </NavigationMenu>
                     </div>
-                    <div className="bg-marrom-100 text-center text-branco-100 text-xl rounded-md p-4 my-14 mx-3 md:w-[855px]">
+                    <div className="bg-marrom-500 text-center text-branco-100 text-xl rounded-md p-4 my-14 mx-3 md:w-[855px]">
                         <h1 className="text-2xl">AUMENTE SEU FATURAMENTO!!!</h1><br />
                         <h2 className="text-lg">Em média, profissionais que investem em formação e especializações na área da beleza podem alcançar um aumento significativo de renda de até 60%</h2>
                         <br/>
@@ -123,7 +123,7 @@ export default function Ebook() {
                         </a>
                     </Link>
                     </div>
-                    <div className="flex text-xl">
+                    <div className="flex text-xl pb-5 pl-1">
                         <Asterisk />
                         O Ebook tem o conteúdo aprovado e validado pela FEPCSSP(Federação das Escolas Profissionais de Cabeleireiro e Similares)
                     </div>

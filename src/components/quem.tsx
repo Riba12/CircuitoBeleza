@@ -4,9 +4,9 @@ export default function Quem() {
 
     return (
         <>
-            <div className="flex my-10">
+            <div className="flex bg-laranja-500">
                 <div className="grow"></div>
-                <section className="flex flex-col w-full font-jose md:w-[960px] space-x-5">
+                <section className="flex flex-col w-full font-jose md:w-[960px] space-x-5  py-10">
                     <div>
                         <div className=" md:text-5xl text-center font-bold">Quem é o TÉCNICO EDUCADOR da área da Beleza?</div>
                     </div>

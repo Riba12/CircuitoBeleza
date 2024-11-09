@@ -30,7 +30,7 @@ export default function Depo() {
     const nome = ['Ana Maria Souza', 'Carla Francoso da Conceição', 'Joselma Rafaela Guimarães da Silva', 'Julia Soares', 'Marcela Souza Lima']
     const mk = ['mk1.png', 'mk2.png', 'mk3.png', 'mk4.png', 'mk5.png', 'mk6.png', 'mk7.png']
     return (
-        <div className="flex bg-bege-100">
+        <div className="flex bg-laranja-500">
             <div className="grow"></div>
             <section className="my-8 w-full md:w-[960px]">
                 <div className="flex justify-center">
@@ -44,7 +44,7 @@ export default function Depo() {
                             {Array.from({ length: 5 }).map((_, index) => (
                                 <CarouselItem key={index} >
                                     <div className="p-1">
-                                        <Card>
+                                        <Card className='bg-bege-500 '>
                                             <CardContent className="flex items-center justify-center p-6">
                                                 <div className="flex flex-col text-sm md:text-xl">
                                                     <div className='flex space-x-10'>
@@ -70,7 +70,7 @@ export default function Depo() {
                     </Carousel>
                 </div>
                 <div>
-                    <div className="text-yellow-600 text-xl">E-book</div>
+                    <div className="text-bold pl-1 pt-2 text-xl">E-book</div>
                     <div className="text-2xl md:text-5xl font-bold text-center my-4">Técnico Educador da área da beleza</div>
                     <div className="text-center space-y-8 text-xl md:text-2xl">
                         <div>
@@ -86,10 +86,10 @@ export default function Depo() {
                         </div>
                         <div className='text-red-600'>De <del>R$ 197,00</del></div>
                         <div className='text-3xl'>POR APENAS</div>
-                        <div className="text-marrom-100 text-7xl">
+                        <div className="text-black text-7xl">
                             R$ 97,00
                         </div>
-                        <div className="text-marrom-100">
+                        <div className="text-marrom-500">
                             ou 5x de R$ 19,40
                         </div>
                         <div>
@@ -113,16 +113,16 @@ export default function Depo() {
                         </div>
                     </div>
                 </div>
-                <div className="my-6 space-y-5">
+                <div className="my-6 space-y-5 px-1 ">
                     <div className="flex space-x-5 place-content-center">
-                        <div><img src={mk[0]} className="w-56" /></div>
-                        <div><img src={mk[1]} className="w-60" /></div>
-                        <div><img src={mk[2]} className="w-60" /></div>
+                        <div><img src={mk[0]} className="w-56 rounded-md" /></div>
+                        <div><img src={mk[1]} className="w-60 rounded-md" /></div>
+                        <div><img src={mk[2]} className="w-60 rounded-md" /></div>
                     </div>
                     <div className="flex space-x-5 place-content-center">
-                        <div><img src={mk[4]} className="w-60" /></div>
-                        <div><img src={mk[5]} className="w-60" /></div>
-                        <div><img src={mk[6]} className="w-64" /></div>
+                        <div><img src={mk[4]} className="w-60 rounded-md" /></div>
+                        <div><img src={mk[5]} className="w-60 rounded-md" /></div>
+                        <div><img src={mk[6]} className="w-64 rounded-md" /></div>
                     </div>
                 </div>
             </section>

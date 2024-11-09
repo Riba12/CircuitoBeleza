@@ -23,7 +23,7 @@ function ScrollToComponent(componentId: string) {
 
 export default function Home() {
   return (
-    <main className="w-full md:min-w-max font-jose">
+    <main className="w-full md:min-w-max font-jose bg-bege-500">
       <Head scrollToComponent={ScrollToComponent} />
       <Landing />
       <Quem />
