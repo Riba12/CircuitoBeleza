@@ -63,6 +63,10 @@ const config = {
           '0%': { transform: 'translateX(100%) translateY(100%)', opacity: '0' }, 
           '100%': { transform: 'translateX(20%) translateY(100%)', opacity: '1' }, 
         },
+        "slideInBTBig": {
+          '0%': { transform: 'translateX(100%) translateY(100%)', opacity: '0' }, 
+          '100%': { transform: 'translateX(40%) translateY(100%)', opacity: '1' }, 
+        },
       },
       fontFamily: {
         'jose' : ['Josefin Sans', 'sans-serif'],
@@ -76,6 +80,7 @@ const config = {
         "slideInLogoBig": 'slideInLogoBig 1.5s ease-out forwards',
         "slideInText": 'slideInText 2s ease-out forwards',
         "slideInBT": 'slideInBT 2.5s ease-out forwards',
+        "slideInBTBig": 'slideInBTBig 2.5s ease-out forwards',
       },
     },
   },
