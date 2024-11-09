@@ -10,7 +10,7 @@ export default function Landing() {
         <>
             <div className="bg-bege-500 flex">
                 <div className="grow "></div>
-                <section className="flex flex-row font-medium w-full h-[32rem] pt-5 md:w-[960px] md:h-dvh 2xl:w-[1440px] ">
+                <section className="flex flex-row font-cocosharp w-full h-[32rem] pt-5 md:w-[960px] md:h-dvh 2xl:w-[1440px] ">
                     {/* <div className="h-4/5  flex justify-center space-x-40">
                     <div className="flex flex-col justify-center w-14 md:w-1/3 z-10">
                         <div className="flex justify-end mt-8">

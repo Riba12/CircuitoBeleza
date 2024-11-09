@@ -8,3 +8,8 @@
     font-family: 'Century Gothic';
     src: url('../../public/fonts/centurygothic.ttf') format('ttf');
 }
+
+@font-face {
+    font-family: 'Coco Sharp';
+    src: url('../../public/fonts/Coco-Sharp-Extrabold-trial.ttf') format('ttf');
+}

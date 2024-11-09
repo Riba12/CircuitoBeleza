@@ -6,13 +6,13 @@ export default function Quem() {
         <>
             <div className="flex bg-laranja-500">
                 <div className="grow"></div>
-                <section className="flex flex-col w-full font-jose md:w-[960px] space-x-5  py-10">
+                <section className="flex flex-col w-full font-century md:w-[960px] space-x-5  py-10">
                     <div>
-                        <div className=" md:text-5xl text-center font-bold">Quem é o TÉCNICO EDUCADOR da área da Beleza?</div>
+                        <div className=" md:text-5xl text-center font-cocosharp">Quem é o TÉCNICO EDUCADOR da área da Beleza?</div>
                     </div>
                     <div className="flex my-4">
                         <div className="w-1/3 place-content-center">
-                            <img src="quem2.png" className="rounded-md w-24 md:w-64 md:ml-8 md:mt-22" />
+                            <img src="quem2.png" className="rounded-md w-32 md:w-64 md:ml-8 md:mt-22" />
                         </div>
                         <div className="w-2/3 pr-2">
                             <div className="flex my-5 text-center md:space-x-5 text-[14px] md:text-base">

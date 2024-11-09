@@ -66,7 +66,8 @@ const config = {
       },
       fontFamily: {
         'jose' : ['Josefin Sans', 'sans-serif'],
-        'century': ['Century Gothic', 'sans-serif']
+        'century': ['Century Gothic', 'sans-serif'],
+        'cocosharp' : ['CocoSharp Trial', 'sans-serif']
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
