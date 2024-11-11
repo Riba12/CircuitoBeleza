@@ -31,34 +31,35 @@ export default function Cursos() {
     const datasColorimetria = [data6, data7];
     const datasMaster = [data4, data5];
     return (
-        <div className="flex text-white">
+        <div className="flex bg-gray-100">
             <div className="grow"></div>
             <section>
                 <div className="text-center text-7xl my-6">Nossos Cursos</div>
-                <div className="flex justify-center">
+                <div className="flex justify-center bg-bege-500 rounded-full">
                     <img src="fed.png" className="w-60" alt="Escola Filiada - Federação das escolas de profissionais de cabeleireiros e similares do Brasil - Internacional" />
                 </div>
-                <div className="flex flex-col space-y-5">
+                <div className="flex flex-col mt-4 space-y-5">
                     <h1 className="text-center text-3xl">CURSOS SEMANAIS</h1>
                     <div className="flex justify-around text-center space-x-2 px-2">
-                        <Card className="w-1/3 bg-bege-500 md:w-80 space-y-3">
+                        <Card className="w-1/4 bg-bege-500 md:w-80 space-y-3">
                             <img src="manicure.png" className="rounded-md" />
-                            <h2 className="text-sm">Segunda-Feira</h2>
-                            <h3 className="text-xs pb-2">Manicure 8h às 17h</h3>
+                            <h2 className="text-sm pb-3">Manicure e Pedicure</h2>
                         </Card>
-                        <Card className="w-1/3 bg-bege-500 md:w-80 space-y-3">
+                        <Card className="w-1/4 bg-bege-500 md:w-80 space-y-3">
                             <img src="barbeiro.png" className="rounded-md" />
-                            <h2 className="text-sm">Terça-Feira</h2>
-                            <h3 className="text-xs pb-2">Barbeiro 8h às 17h</h3>
+                            <h2 className="text-sm pb-3">Barbeiro</h2>
                         </Card>
-                        <Card className="w-1/3 bg-bege-500 md:w-80 space-y-3">
+                        <Card className="w-1/4 bg-bege-500 md:w-80 space-y-3">
                             <img src="corte.png" className="rounded-md" />
-                            <h2 className="text-sm">Quarta-Feira</h2>
-                            <h3 className="text-xs pb-2">Corte 18h às 21h30</h3>
+                            <h2 className="text-sm pb-3">Mega Hair</h2>
+                        </Card>
+                        <Card className="w-1/4 bg-bege-500 md:w-80 space-y-3">
+                            <img src="curso_sobrancelha.png" className="rounded-md" />
+                            <h2 className="text-sm pb-3">Designer de Sobrancelha</h2>
                         </Card>
                     </div>
                 </div>
-                <div className="h-auto border-8 border-bege-500 border-y-black mt-5">
+                <div className="h-auto border-8 border-marrom-500 border-y-black mt-5">
                     <Accordion type="multiple" className="w-full" >
                         <AccordionItem value="item-1" className="text-2xl">
                             <AccordionTrigger onClick={() => { Scroll() }}>Curso de Spa dos Pés (Método Juliana Marques)

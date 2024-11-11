@@ -1,23 +1,23 @@
 import Link from "next/link";
 import Image from 'next/image'
 import chica from '../../public/chica2.png'
-import logo from '../../public/logo2.png'
+import logo from '../../public/logo1.png'
 
 
 export default function Landing() {
 
     return (
         <>
-            <div className="bg-marrom-500 flex h-dvh text-white">
+            <div className="bg-gray-100 flex h-dvh text-marrom-500">
                 <div className="grow "></div>
                 <section className="flex flex-row font-cocosharp w-full h-full md:w-[960px] md:h-dvh 2xl:w-[1440px] ">
                     <div className="flex flex-col w-1/2">
                         <div className="relative place-content-center pl-2 h-2/3 md:pt-10">
-                            <Image src={chica} alt="Mulher Morena" priority className="rounded-md" />
+                            <Image src={chica} alt="Mulher Morena" priority className="rounded-md " />
                         </div>
                         <div className="grow"></div>
                     </div>
-                    <div className="w-1/2 flex flex-col justify-around md:justify-evenly">
+                    <div className="w-1/2 flex flex-col justify-around md:justify-evenly ">
                         <div className="animate-slideInLogo w-24 md:animate-slideInLogoBig md:w-44">
                             <Image src={logo} alt="Logo" className="w-12 md:w-20 2xl:w-32" />
                         </div>

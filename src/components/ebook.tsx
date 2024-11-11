@@ -20,7 +20,7 @@ import Link from "next/link";
 export default function Ebook() {
 
     return (
-        <div className="bg-marrom-500 flex text-white">
+        <div className="bg-gray-100 flex">
             <div className="grow"></div>
             <section className="w-full pt-5 md:w-[960px] md:p-10">
                 <div>
@@ -33,8 +33,8 @@ export default function Ebook() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex justify-around py-4 md:space-x-20">
-                        <Card className="bg-bege-500 w-1/4 flex flex-col justify-between">
+                    <div className="flex justify-around py-4 md:space-x-20 ">
+                        <Card className="bg-marrom-500 text-bege-500 w-1/4 flex flex-col justify-between">
                             <CardHeader>
                                 <CardTitle className="text-[10px] md:text-2xl">Domine as técnicas</CardTitle>
                             </CardHeader>
@@ -45,7 +45,7 @@ export default function Ebook() {
                                 <p><Scissors /></p>
                             </CardFooter>
                         </Card>
-                        <Card className="bg-bege-500 w-1/4 flex flex-col justify-between">
+                        <Card className="bg-marrom-500 text-bege-500 w-1/4 flex flex-col justify-between">
                             <CardHeader>
                                 <CardTitle className="text-[10px] md:text-2xl text-center">Gestão de carreira</CardTitle>
                             </CardHeader>
@@ -56,7 +56,7 @@ export default function Ebook() {
                                 <p><ChartNoAxesCombined /></p>
                             </CardFooter>
                         </Card>
-                        <Card className="bg-bege-500 w-1/4 flex flex-col justify-between">
+                        <Card className="bg-marrom-500 text-bege-500 w-1/4 flex flex-col justify-between">
                             <CardHeader>
                                 <CardTitle className="text-[10px] md:text-2xl">Desenvolva sua Habilidade Educacional</CardTitle>
                             </CardHeader>
@@ -110,7 +110,7 @@ export default function Ebook() {
                             </NavigationMenuList>
                         </NavigationMenu>
                     </div>
-                    <div className="bg-laranja-500 text-center text-branco-100 text-xl rounded-md p-4 my-14 mx-3 md:w-[855px]">
+                    <div className="bg-marrom-500 text-center text-branco-100 text-xl rounded-md p-4 my-14 mx-3 md:w-[855px]">
                         <h1 className="text-2xl">AUMENTE SEU FATURAMENTO!!!</h1><br />
                         <h2 className="text-lg">Em média, profissionais que investem em formação e especializações na área da beleza podem alcançar um aumento significativo de renda de até 60%</h2>
                         <br/>
@@ -118,12 +118,12 @@ export default function Ebook() {
                     </div>
                     <div className=" flex justify-center m-2 p-4">
                     <Link href="https://pay.kiwify.com.br/fTT4C1K" passHref legacyBehavior >
-                        <a target='_blank' className="w-96 py-4 rounded-full text-center bg-laranja-500 text-white text-xl md:text-3xl hover:bg-gray-400">
+                        <a target='_blank' className="w-96 py-4 rounded-full text-center bg-laranja-500 text-xl md:text-3xl hover:bg-gray-400">
                             Garanta o seu agora
                         </a>
                     </Link>
                     </div>
-                    <div className="flex text-xl pb-5 pl-1">
+                    <div className="flex text-xl pb-5 pl-1 text-marrom-500">
                         <Asterisk />
                         O Ebook tem o conteúdo aprovado e validado pela FEPCSSP(Federação das Escolas Profissionais de Cabeleireiro e Similares)
                     </div>

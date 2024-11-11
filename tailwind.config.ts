@@ -37,6 +37,9 @@ const config = {
         oliva:{
           500: '#C0B391'
         },
+        rosa:{
+          100: '#FFE6F7'
+        }
       },
       keyframes: {
         "accordion-down": {

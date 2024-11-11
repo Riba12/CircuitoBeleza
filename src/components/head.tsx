@@ -9,7 +9,7 @@ interface HeadProps {
 
 export default function Head({ scrollToComponent }: HeadProps) {
     return (
-        <><div className="flex text-white">
+        <><div className="flex bg-marrom-500 text-bege-500">
             <div className="grow"></div>
             <section className="flex justify-around text-xs space-x-2 md:text-base md:w-4/5">
                 <div className="md:w-1/5 hover:bg-bege-100">

@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Footer() {
 
     return (
-        <section className='bg-black text-branco-100 flex justify-between mt-10 text-[10px] md:text-base'>
+        <section className='bg-black text-bege-500 flex justify-between mt-10 text-[10px] md:text-base'>
             <div className='flex p-2 space-x-1 mt-2'>
                 <Link href='https://www.instagram.com/circuitodabeleza_/' passHref legacyBehavior>
                     <a target='_blank'>
