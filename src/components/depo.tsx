@@ -30,7 +30,7 @@ export default function Depo() {
     const nome = ['Ana Maria Souza', 'Carla Francoso da Conceição', 'Joselma Rafaela Guimarães da Silva', 'Julia Soares', 'Marcela Souza Lima']
     const mk = ['mk1.png', 'mk2.png', 'mk3.png', 'mk4.png', 'mk5.png', 'mk6.png', 'mk7.png']
     return (
-        <div className="flex bg-laranja-500">
+        <div className="flex bg-black text-white">
             <div className="grow"></div>
             <section className="my-8 w-full md:w-[960px]">
                 <div className="flex justify-center">
@@ -65,8 +65,8 @@ export default function Depo() {
                                 </CarouselItem>
                             ))}
                         </CarouselContent>
-                        <CarouselPrevious />
-                        <CarouselNext />
+                        <CarouselPrevious className='text-black'/>
+                        <CarouselNext className='text-black'/>
                     </Carousel>
                 </div>
                 <div>
@@ -86,15 +86,15 @@ export default function Depo() {
                         </div>
                         <div className='text-red-600'>De <del>R$ 197,00</del></div>
                         <div className='text-3xl'>POR APENAS</div>
-                        <div className="text-black text-7xl">
+                        <div className="text-7xl">
                             R$ 97,00
                         </div>
-                        <div className="text-marrom-500">
+                        <div className="text-red-400">
                             ou 5x de R$ 19,40
                         </div>
                         <div>
                             <Link href="https://pay.kiwify.com.br/fTT4C1K" passHref legacyBehavior >
-                                <a target='_blank' className="w-96 p-4 rounded-full text-center bg-laranja-100 text-white text-xl md:text-3xl hover:bg-gray-400">
+                                <a target='_blank' className="w-96 p-4 rounded-full text-center bg-laranja-500 text-white text-xl md:text-3xl hover:bg-gray-400">
                                     Quero mudar de vida agora
                                 </a>
                             </Link>

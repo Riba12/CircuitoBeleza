@@ -4,7 +4,7 @@ export default function Quem() {
 
     return (
         <>
-            <div className="flex bg-laranja-500">
+            <div className="flex bg-black text-white">
                 <div className="grow"></div>
                 <section className="flex flex-col w-full font-century md:w-[960px] space-x-5  py-10">
                     <div>
@@ -38,7 +38,7 @@ export default function Quem() {
                     </div>
                     <div className="mt-5 flex justify-center">
                         <Link href="https://pay.kiwify.com.br/fTT4C1K" passHref legacyBehavior >
-                            <a target='_blank' className="w-72 py-4 rounded-full text-center bg-laranja-100 text-white text-xl md:text-3xl hover:bg-gray-400">
+                            <a target='_blank' className="w-72 py-4 rounded-full text-center bg-laranja-500 text-white text-xl md:text-3xl hover:bg-gray-400">
                                 Conheça
                             </a>
                         </Link>

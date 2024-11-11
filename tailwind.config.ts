@@ -48,20 +48,20 @@ const config = {
           to: { height: "0" },
         },
         "slideInLogo": {
-          '0%': { transform: 'translateX(100%) translateY(20%)', opacity: '0' }, 
-          '100%': { transform: 'translateX(60%) translateY(20%)', opacity: '1' },
+          '0%': { transform: 'translateX(100%) translateY(10%)', opacity: '0' }, 
+          '100%': { transform: 'translateX(60%) translateY(10%)', opacity: '1' },
         },
         "slideInLogoBig": {
           '0%': { transform: 'translateX(250%) translateY(20%)', opacity: '0' }, 
           '100%': { transform: 'translateX(90%) translateY(20%)', opacity: '1' },
         },
         "slideInText": {
-          '0%': { transform: 'translateX(100%) translateY(20%)', opacity: '0' }, 
-          '100%': { transform: 'translateX(20%) translateY(20%)', opacity: '1' }, 
+          '0%': { transform: 'translateX(100%) ', opacity: '0' }, 
+          '100%': { transform: 'translateX(20%) ', opacity: '1' }, 
         },
         "slideInBT": {
-          '0%': { transform: 'translateX(100%) translateY(100%)', opacity: '0' }, 
-          '100%': { transform: 'translateX(20%) translateY(100%)', opacity: '1' }, 
+          '0%': { transform: 'translateX(100%) ', opacity: '0' }, 
+          '100%': { transform: 'translateX(20%) ', opacity: '1' }, 
         },
         "slideInBTBig": {
           '0%': { transform: 'translateX(100%) translateY(100%)', opacity: '0' }, 

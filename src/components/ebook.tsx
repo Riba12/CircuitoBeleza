@@ -20,7 +20,7 @@ import Link from "next/link";
 export default function Ebook() {
 
     return (
-        <div className="bg-bege-500 flex">
+        <div className="bg-marrom-500 flex text-white">
             <div className="grow"></div>
             <section className="w-full pt-5 md:w-[960px] md:p-10">
                 <div>
@@ -34,7 +34,7 @@ export default function Ebook() {
                         </div>
                     </div>
                     <div className="flex justify-around py-4 md:space-x-20">
-                        <Card className="bg-bege-100 w-1/4 flex flex-col justify-between">
+                        <Card className="bg-bege-500 w-1/4 flex flex-col justify-between">
                             <CardHeader>
                                 <CardTitle className="text-[10px] md:text-2xl">Domine as técnicas</CardTitle>
                             </CardHeader>
@@ -45,7 +45,7 @@ export default function Ebook() {
                                 <p><Scissors /></p>
                             </CardFooter>
                         </Card>
-                        <Card className="bg-bege-100 w-1/4 flex flex-col justify-between">
+                        <Card className="bg-bege-500 w-1/4 flex flex-col justify-between">
                             <CardHeader>
                                 <CardTitle className="text-[10px] md:text-2xl text-center">Gestão de carreira</CardTitle>
                             </CardHeader>
@@ -56,7 +56,7 @@ export default function Ebook() {
                                 <p><ChartNoAxesCombined /></p>
                             </CardFooter>
                         </Card>
-                        <Card className="bg-bege-100 w-1/4 flex flex-col justify-between">
+                        <Card className="bg-bege-500 w-1/4 flex flex-col justify-between">
                             <CardHeader>
                                 <CardTitle className="text-[10px] md:text-2xl">Desenvolva sua Habilidade Educacional</CardTitle>
                             </CardHeader>
@@ -68,11 +68,11 @@ export default function Ebook() {
                             </CardFooter>
                         </Card>
                     </div>
-                    <div className="flex bg-bege-100 w-full place-content-center rounded-md">
+                    <div className="flex bg-bege-500 w-full place-content-center rounded-md text-black">
                         <NavigationMenu>
                             <NavigationMenuList className="w-[80px] md:w-1/4 md:ml-20">
                                 <NavigationMenuItem >
-                                    <NavigationMenuTrigger className="text-[8px] md:text-xl pr-10 bg-bege-100">1. Completo</NavigationMenuTrigger>
+                                    <NavigationMenuTrigger className="text-[8px] md:text-xl pr-10 bg-bege-500">1. Completo</NavigationMenuTrigger>
                                     <NavigationMenuContent>
                                         <div className="w-52 p-4">Aborda todos os aspectos educacionais para você ministrar um curso com segurança</div>
                                     </NavigationMenuContent>
@@ -82,7 +82,7 @@ export default function Ebook() {
                         <NavigationMenu>
                             <NavigationMenuList className="w-[80px] md:w-1/4 ml-4">
                                 <NavigationMenuItem>
-                                    <NavigationMenuTrigger className="text-[8px] md:text-xl pr-12 bg-bege-100">2. Linguagem Clara</NavigationMenuTrigger>
+                                    <NavigationMenuTrigger className="text-[8px] md:text-xl pr-12 bg-bege-500">2. Linguagem Clara</NavigationMenuTrigger>
                                     <NavigationMenuContent>
                                         <div className="w-52 p-4">Escrita de forma simples e didática, fácil de entender e aplicar na prática.</div>
                                     </NavigationMenuContent>
@@ -92,7 +92,7 @@ export default function Ebook() {
                         <NavigationMenu>
                             <NavigationMenuList className="w-[80px] md:w-1/4">
                                 <NavigationMenuItem>
-                                    <NavigationMenuTrigger className="text-[8px] md:text-xl bg-bege-100">3. Atualizado</NavigationMenuTrigger>
+                                    <NavigationMenuTrigger className="text-[8px] md:text-xl bg-bege-500">3. Atualizado</NavigationMenuTrigger>
                                     <NavigationMenuContent>
                                         <div className="w-52 p-4">Conteúdo atualizado com as últimas tendências de posicionamento no mercado.</div>
                                     </NavigationMenuContent>
@@ -102,7 +102,7 @@ export default function Ebook() {
                         <NavigationMenu>
                             <NavigationMenuList className="w-[80px] md:w-1/4">
                                 <NavigationMenuItem>
-                                    <NavigationMenuTrigger className="text-[8px] md:text-xl bg-bege-100 ">4. Estratégias</NavigationMenuTrigger>
+                                    <NavigationMenuTrigger className="text-[8px] md:text-xl bg-bege-500 ">4. Estratégias</NavigationMenuTrigger>
                                     <NavigationMenuContent>
                                         <div className="w-52 p-4">Aprenda as estratégias e aplique na prática todos os segredos de um educador de sucesso na área da beleza.</div>
                                     </NavigationMenuContent>
@@ -110,7 +110,7 @@ export default function Ebook() {
                             </NavigationMenuList>
                         </NavigationMenu>
                     </div>
-                    <div className="bg-marrom-500 text-center text-branco-100 text-xl rounded-md p-4 my-14 mx-3 md:w-[855px]">
+                    <div className="bg-laranja-500 text-center text-branco-100 text-xl rounded-md p-4 my-14 mx-3 md:w-[855px]">
                         <h1 className="text-2xl">AUMENTE SEU FATURAMENTO!!!</h1><br />
                         <h2 className="text-lg">Em média, profissionais que investem em formação e especializações na área da beleza podem alcançar um aumento significativo de renda de até 60%</h2>
                         <br/>
@@ -118,7 +118,7 @@ export default function Ebook() {
                     </div>
                     <div className=" flex justify-center m-2 p-4">
                     <Link href="https://pay.kiwify.com.br/fTT4C1K" passHref legacyBehavior >
-                        <a target='_blank' className="w-96 py-4 rounded-full text-center bg-laranja-100 text-white text-xl md:text-3xl hover:bg-gray-400">
+                        <a target='_blank' className="w-96 py-4 rounded-full text-center bg-laranja-500 text-white text-xl md:text-3xl hover:bg-gray-400">
                             Garanta o seu agora
                         </a>
                     </Link>
