@@ -29,8 +29,8 @@ export default function Landing() {
                         </div>
                         <div className="animate-slideInBT md:animate-slideInBTBig mb-10 w-4/5 md:mt-0">
                             <Link href="https://pay.kiwify.com.br/fTT4C1K" passHref legacyBehavior className="w-full">
-                                <a target='_blank' className="w-72 p-4 rounded-full text-center bg-laranja-500 text-white text-xl md:text-2xl 2xl:text-3xl hover:bg-gray-400">
-                                    Saber mais
+                                <a target='_blank' className="w-72 p-4 rounded-full text-center bg-laranja-500 text-white text-base md:text-2xl 2xl:text-3xl hover:bg-gray-400">
+                                    Comprar Agora
                                 </a>
                             </Link>
                         </div>

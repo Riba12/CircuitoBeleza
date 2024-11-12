@@ -16,7 +16,7 @@ export default function BotaoWpp({ phoneNumber, message }: { phoneNumber: string
                 alt="WhatsApp"
                 className="mr-6 h-5 w-5"
             />
-            Diga Oi !
+            Fale conosco
         </a>
 
     );
