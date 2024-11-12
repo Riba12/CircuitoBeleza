@@ -13,9 +13,7 @@ const config = {
     container: {
       center: true,
       padding: "2rem",
-      screens: {
-        "2xl": "1400px",
-      },
+     
     },
     extend: {
       colors: {
@@ -56,7 +54,7 @@ const config = {
         },
         "slideInLogoBig": {
           '0%': { transform: 'translateX(250%) translateY(20%)', opacity: '0' }, 
-          '100%': { transform: 'translateX(90%) translateY(20%)', opacity: '1' },
+          '100%': { transform: 'translateX(150%) translateY(20%)', opacity: '1' },
         },
         "slideInText": {
           '0%': { transform: 'translateX(100%) ', opacity: '0' }, 
@@ -84,6 +82,9 @@ const config = {
         "slideInText": 'slideInText 2s ease-out forwards',
         "slideInBT": 'slideInBT 2.5s ease-out forwards',
         "slideInBTBig": 'slideInBTBig 2.5s ease-out forwards',
+      },
+      screens: {
+        "3xl": "2500px",
       },
     },
   },
