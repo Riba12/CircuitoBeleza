@@ -5,137 +5,63 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion"
-import { Calendar } from "@/components/ui/calendar"
-import { Card } from "./ui/card";
-
-function Scroll() {
-    setTimeout(() => {
-        window.scrollTo({
-            top: window.scrollY + 300,
-            behavior: 'smooth'
-        });
-    }, 150);
-}
+import { useState } from "react";
 
 
 export default function Cursos() {
-    // const data1 = new Date(2024, 9, 19);
-    // const data2 = new Date(2024, 9, 20);
-    // const data3 = new Date(2024, 9, 21);
-    // const data4 = new Date(2024, 10, 3);
-    // const data5 = new Date(2024, 10, 4);
-    // const data6 = new Date(2024, 10, 18);
-    // const data7 = new Date(2024, 10, 19);
-    // const data8 = new Date(2024, 10, 4);
-    // const datasArq = [data2, data3];
-    // const datasColorimetria = [data6, data7];
-    // const datasMaster = [data4, data5];
+
+    // function Scroll() {
+
+    //     if (abrir) {
+    //         setTimeout(() => {
+    //             window.scrollTo({
+    //                 top: window.scrollY + 200,
+    //                 behavior: 'smooth'
+    //             });
+    //         }, 150);
+    //         setAbrir(false)
+    //     }
+    //     else
+    //         setAbrir(true)
+    // }
+
+    function Listar() {
+        return cursos.map((curso, index) => (
+            <AccordionItem key={index} value={`item-${index}`} className="text-start md:text-2xl">
+              <AccordionTrigger className="text-start" >
+                Curso de {curso}
+              </AccordionTrigger>
+              <AccordionContent className="flex justify-center">
+                <img src={`/novas_artes/${index + 1}.png`} alt={`Arte ${curso}`} className="w-[640px] md:w-[704px]" />
+              </AccordionContent>
+            </AccordionItem>
+          ));
+    }
+
+    // const [abrir, setAbrir] = useState(true)
+    const cursos = ['Barbeiro - João Franco', 'Arquitetura do Corte - Ray Alvez','Cabeleireiro - Alessandro Colares',
+        'Cabeleireiro - Ray Alvez', 'Colorimetria - Ray Alvez', 'Técnico Educador - Andrea Barbosa', 'Loose Curls e Cachoterapia - Beatriz Cortácio',
+        'Desvendando os Segredos Mechas em Cabelos Crespos e Cacheados - Beatriz Cortácio', 'Mega Hair - Daiana de Andrade',
+        'Corte - Alessandro Colares', 'Fade e Tesoura - João Franco', 'Manicure E Pedicure -  Juliana Marques', 'Depilação - Karen Kelle',
+        'Depilação - Tatiana Evaristo', 'Extensão de cílios - Karen Kelle', 'Designer de Sobrancelha - Karen Kelle',
+        'Maquiagem Profissional - Thainá Pereira', 'Automaquiagem  - Thainá Pereira', 'Extensão de cílios - Rebeca Santos',
+        'Mega Hair - Uélita Aguiar'
+        ]
+
     return (
         <div className="flex bg-gray-100">
             <div className="grow"></div>
             <section>
-                <div className="text-center text-7xl my-6">Nossos Cursos</div>
+                <div className="text-center text-3xl md:text-7xl my-6 ">Nossos Cursos</div>
+                <div  className="md:flex md:justify-center">
 
-                {/* <div className="flex flex-col mt-4 space-y-5">
-                    <h1 className="text-center text-3xl">CURSOS SEMANAIS</h1>
-                    <div className="flex justify-around text-center space-x-2 px-2">
-                        <Card className="w-1/4 bg-bege-500 md:w-80 space-y-3">
-                            <img src="manicure.png" className="rounded-md" />
-                            <h2 className="text-sm pb-3">Manicure e Pedicure</h2>
-                        </Card>
-                        <Card className="w-1/4 bg-bege-500 md:w-80 space-y-3">
-                            <img src="barbeiro.png" className="rounded-md" />
-                            <h2 className="text-sm pb-3">Barbeiro</h2>
-                        </Card>
-                        <Card className="w-1/4 bg-bege-500 md:w-80 space-y-3">
-                            <img src="corte.png" className="rounded-md" />
-                            <h2 className="text-sm pb-3">Mega Hair</h2>
-                        </Card>
-                        <Card className="w-1/4 bg-bege-500 md:w-80 space-y-3">
-                            <img src="curso_sobrancelha.png" className="rounded-md" />
-                            <h2 className="text-sm pb-3">Designer de Sobrancelha</h2>
-                        </Card>
-                    </div>
-                </div> */}
-                <div className="h-auto border-8 border-marrom-500 border-y-black mt-5">
+                <div className="h-auto border-8 border-marrom-500 border-y-black mt-5 md:w-3/4 ">
                     <Accordion type="multiple" className="w-full" >
-                        <AccordionItem value="item-1" className="text-2xl">
-                            <AccordionTrigger onClick={() => { Scroll() }}>Curso de Spa dos Pés (Método Juliana Marques)
-                            </AccordionTrigger>
-                            <AccordionContent className="flex justify-center">
-                                <img src="pes.png" className="w-96" />
-                                {/* <div className="hidden md:block">
-                                    <div className="text-center md:text-2xl p-5">19 de Outubro</div>
-                                    <div >
-                                        <Calendar mode="single" selected={data1} defaultMonth={data1} />
-                                    </div>
-                                </div> */}
-                            </AccordionContent>
-                        </AccordionItem>
-                        <AccordionItem value="item-2" className="text-2xl">
-                            <AccordionTrigger onClick={() => { Scroll() }}>Curso de Arquitetura do Corte</AccordionTrigger>
-                            <AccordionContent className="flex justify-center">
-                                <img src="arquitetura1.png" className="w-96" />
-                                {/* <div className="place-content-center"></div>
-                                <div className="hidden md:block">
-                                    <div className="text-center md:text-2xl p-5">20 e 21 de Outubro</div>
-                                    <div>
-                                        <Calendar mode="multiple" selected={datasArq} defaultMonth={data1} />
-                                    </div>
-                                </div> */}
-                            </AccordionContent>
-                        </AccordionItem>
-                        <AccordionItem value="item-3" className="text-2xl">
-                            <AccordionTrigger onClick={() => { Scroll() }}>Master Class - Expert em Cabelos Crespos e Cacheado</AccordionTrigger>
-                            <AccordionContent className="flex justify-center">
-                                <img src="master.png" className="w-96 " />
-                                {/* <div className="place-content-center"></div>
-                                <div className="hidden md:block">
-                                    <div className="text-center md:text-2xl p-5">3 e 4 de Novembro</div>
-                                    <div className="ml-2">
-                                        <Calendar mode="multiple" selected={datasMaster} defaultMonth={data4} />
-                                    </div>
-                                </div> */}
-                            </AccordionContent>
-                        </AccordionItem>
-                        <AccordionItem value="item-4" className="text-2xl">
-                            <AccordionTrigger onClick={() => { Scroll() }}>Curso de Colorimetria (Prático)</AccordionTrigger>
-                            <AccordionContent className="flex justify-center">
-                                <img src="colorimetria.png" className="w-96 " />
-                                {/* <div className="place-content-center"></div>
-                                <div className="hidden md:block">
-                                    <div className="text-center md:text-2xl p-5">18 e 19 de Novembro</div>
-                                    <div>
-                                        <Calendar mode="multiple" selected={datasColorimetria} defaultMonth={data7} />
-                                    </div>
-                                </div> */}
-                            </AccordionContent>
-                        </AccordionItem>
-                        <AccordionItem value="item-5" className="text-2xl">
-                            <AccordionTrigger onClick={() => { Scroll() }}>Curso de Designer de Sobrancelha (Formação profissional)</AccordionTrigger>
-                            <AccordionContent className="flex justify-center">
-                                <div className="place-content-center"><img src="sobrancelha.png" className="w-96" /></div>
-                            </AccordionContent>
-                        </AccordionItem>
-                        <AccordionItem value="item-6" className="text-2xl">
-                            <AccordionTrigger onClick={() => { Scroll() }}>Curso de Manicure e Pedicure (Formação profissional)</AccordionTrigger>
-                            <AccordionContent className="flex justify-center">
-                                <div className="place-content-center"><img src="manicure1.png" className="w-96" /></div>
-                            </AccordionContent>
-                        </AccordionItem>
-                        <AccordionItem value="item-7" className="text-2xl">
-                            <AccordionTrigger onClick={() => { Scroll() }}>Curso de Barbeiro (Formação profissional)</AccordionTrigger>
-                            <AccordionContent className="flex justify-center">
-                                <div className="place-content-center"><img src="barbeiro1.png" className="w-96" /></div>
-                            </AccordionContent>
-                        </AccordionItem>
-                        <AccordionItem value="item-8" className="text-2xl">
-                            <AccordionTrigger onClick={() => { Scroll() }}>Curso de Mega Hair (Formação profissional)</AccordionTrigger>
-                            <AccordionContent className="flex justify-center">
-                                <div className="place-content-center"><img src="mega.png" className="w-96" /></div>
-                            </AccordionContent>
-                        </AccordionItem>
+                        <div className="max-h-80 md:max-h-[576px] overflow-y-auto border border-gray-300 rounded-md">
+                            {Listar()}
+                        </div>
                     </Accordion>
+                </div>
                 </div>
                 <div>
                     <div className="flex justify-center bg-bege-500 rounded-full mt-5">
