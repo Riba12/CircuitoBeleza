@@ -44,8 +44,7 @@ export default function Cursos() {
         'Desvendando os Segredos Mechas em Cabelos Crespos e Cacheados - Beatriz Cortácio', 'Mega Hair - Daiana de Andrade',
         'Corte - Alessandro Colares', 'Fade e Tesoura - João Franco', 'Manicure E Pedicure -  Juliana Marques', 'Depilação - Karen Kelle',
         'Depilação - Tatiana Evaristo', 'Extensão de cílios - Karen Kelle', 'Designer de Sobrancelha - Karen Kelle',
-        'Maquiagem Profissional - Thainá Pereira', 'Automaquiagem  - Thainá Pereira', 'Extensão de cílios - Rebeca Santos',
-        'Mega Hair - Uélita Aguiar'
+        'Maquiagem Profissional - Thainá Pereira', 'Automaquiagem  - Thainá Pereira','Mega Hair - Uélita Aguiar'
         ]
 
     return (
