@@ -42,7 +42,7 @@ export default function Cursos() {
     const cursos = ['Barbeiro - João Franco', 'Arquitetura do Corte - Ray Alvez','Cabeleireiro - Alessandro Colares',
         'Cabeleireiro - Ray Alvez', 'Colorimetria - Ray Alvez', 'Técnico Educador - Andrea Barbosa', 'Loose Curls e Cachoterapia - Beatriz Cortácio',
         'Desvendando os Segredos Mechas em Cabelos Crespos e Cacheados - Beatriz Cortácio', 'Corte - Alessandro Colares',
-        'Fade e Tesoura - João Franco', 'Manicure E Pedicure -  Juliana Marques', 'Depilação - Karen Kelle',
+        'Fade e Tesoura - João Franco', 'Manicure E Pedicure -  Juliana Marques',
         'Depilação - Tatiana Evaristo', 'Extensão de cílios - Karen Kelle', 'Designer de Sobrancelha - Karen Kelle',
         'Maquiagem Profissional - Thainá Pereira', 'Automaquiagem  - Thainá Pereira','Mega Hair - Uélita Aguiar'
         ]
