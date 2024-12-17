@@ -72,9 +72,9 @@ export default function Cursos() {
                             Melhor Centro Técnico do Estado do Rio de Janeiro por 3 anos consecutivos<br />(2021, 2022 e 2023)
                         </div>
                     </div>
-                    <div className="flex justify-between">
-                        <img src="premio1.png" className="w-32 pl-2 md:w-96 rounded-md" />
-                        <img src="premio2.png" className="w-[226px] pr-2 md:object-cover md:w-[576px] rounded-md" />
+                    <div className="place-items-center space-y-4">
+                        <img src="premio1.png" className="w-72 md:w-96 rounded-md" />
+                        <img src="premio2.png" className="w-72 md:object-cover md:w-[576px] rounded-md" />
                     </div>
                 </div>
             </section>

@@ -113,17 +113,17 @@ export default function Depo() {
                         </div>
                     </div>
                 </div>
-                <div className="my-6 space-y-5 px-1 ">
-                    <div className="flex space-x-5 place-content-center">
-                        <div><img src={mk[0]} className="w-56 rounded-md" /></div>
-                        <div><img src={mk[1]} className="w-60 rounded-md" /></div>
-                        <div><img src={mk[2]} className="w-60 rounded-md" /></div>
-                    </div>
-                    <div className="flex space-x-5 place-content-center">
-                        <div><img src={mk[4]} className="w-60 rounded-md" /></div>
-                        <div><img src={mk[5]} className="w-60 rounded-md" /></div>
-                        <div><img src={mk[6]} className="w-64 rounded-md" /></div>
-                    </div>
+                <div className="my-6 px-1 grid gap-4 grid-cols-3 grid-rows-2">
+                    
+                        <img src={mk[0]} className="rounded-md" />
+                        <img src={mk[1]} className="rounded-md" />
+                        <img src={mk[2]} className="rounded-md" />
+                    
+                    
+                        <img src={mk[4]} className="rounded-md" />
+                        <img src={mk[5]} className="rounded-md" />
+                        <img src={mk[6]} className="rounded-md" />
+                    
                 </div>
             </section>
             <div className="grow"></div>
