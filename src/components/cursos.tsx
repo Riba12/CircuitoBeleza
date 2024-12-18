@@ -44,7 +44,8 @@ export default function Cursos() {
         'Desvendando os Segredos Mechas em Cabelos Crespos e Cacheados - Beatriz Cortácio', 'Corte - Alessandro Colares',
         'Fade e Tesoura - João Franco', 'Manicure E Pedicure -  Juliana Marques',
         'Depilação - Tatiana Evaristo', 'Extensão de cílios - Karen Kelle', 'Designer de Sobrancelha - Karen Kelle',
-        'Maquiagem Profissional - Thainá Pereira', 'Automaquiagem  - Thainá Pereira','Mega Hair - Uélita Aguiar'
+        'Maquiagem Profissional - Thainá Pereira', 'Automaquiagem  - Thainá Pereira','Mega Hair - Uélita Aguiar',
+        'Automaquiagem - Thainá Pereira', 'Maquiagem Profissional - Thainá Pereira'
         ]
 
     return (
@@ -72,7 +73,7 @@ export default function Cursos() {
                             Melhor Centro Técnico do Estado do Rio de Janeiro por 3 anos consecutivos<br />(2021, 2022 e 2023)
                         </div>
                     </div>
-                    <div className="place-items-center space-y-4">
+                    <div className="place-items-center space-y-4 md:flex md:flex-col">
                         <img src="premio1.png" className="w-72 md:w-96 rounded-md" />
                         <img src="premio2.png" className="w-72 md:object-cover md:w-[576px] rounded-md" />
                     </div>
