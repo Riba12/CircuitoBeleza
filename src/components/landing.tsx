@@ -12,8 +12,8 @@ export default function Landing() {
                 <div className="grow "></div>
                 <section className="flex flex-row font-cocosharp w-full h-full md:w-[960px] md:h-dvh 2xl:w-[1440px] ">
                     <div className="flex flex-col w-1/2">
-                        <div className="relative place-content-center pl-2 h-2/3 md:pt-10 md:flex md:justify-end md:h-full md:pb-5">
-                            <Image src={chica} alt="Mulher Morena" priority className="rounded-md md:w-[512px] 3xl:w-full" />
+                        <div className="relative place-content-center pl-2 h-2/3 md:pt-10 md:flex md:flex-col md:justify-center md:h-full md:pb-5">
+                            <Image src={chica} alt="Mulher Morena" priority className="rounded-md md:w-[720px] md:h-[1080px] " />
                         </div>
                         <div className="grow"></div>
                     </div>
