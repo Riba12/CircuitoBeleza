@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from 'next/image'
-import chica from '../../public/chica4.png'
+import chica from '../../public/chica2.png'
 import logo from '../../public/logo1.png'
 
 
