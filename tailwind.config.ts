@@ -58,11 +58,11 @@ const config = {
         },
         "slideInText": {
           '0%': { transform: 'translateX(100%) ', opacity: '0' }, 
-          '100%': { transform: 'translateX(20%) ', opacity: '1' }, 
+          '100%': { transform: 'translateX(10%) ', opacity: '1' }, 
         },
         "slideInBT": {
           '0%': { transform: 'translateX(100%) ', opacity: '0' }, 
-          '100%': { transform: 'translateX(20%) ', opacity: '1' }, 
+          '100%': { transform: 'translateX(10%) ', opacity: '1' }, 
         },
         "slideInBTBig": {
           '0%': { transform: 'translateX(100%) translateY(100%)', opacity: '0' }, 
@@ -88,7 +88,7 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), require("tailwindcss-motion")],
 } satisfies Config
 
 export default config

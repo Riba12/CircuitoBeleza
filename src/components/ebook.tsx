@@ -26,10 +26,10 @@ export default function Ebook() {
                 <div>
                     <div>
                         <div className="text-xl pl-10">E-book</div>
-                        <div className="flex justify-between my-8 space-x-3">
-                            <div className="text-center text-2xl md:text-4xl pt-2 flex flex-col justify-center">Técnico Educador da área da beleza</div>
-                            <div className="flex justify-center ">
-                                <img src="book.png" className="w-72 md:w-80 rounded-md mr-6" />
+                        <div className="flex justify-between my-8 space-x-1">
+                            <div className="text-left pl-2 text-2xl w-1/2 md:text-4xl pt-2 flex flex-col justify-center">Técnico Educador da área da beleza</div>
+                            <div className="w-1/2">
+                                <img src="book.png" className=" md:w-80 rounded-md mr-6" />
                             </div>
                         </div>
                     </div>
