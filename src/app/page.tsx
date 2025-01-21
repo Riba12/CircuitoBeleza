@@ -25,12 +25,16 @@ export default function Home() {
 
   const lidarCompra = () => {
     if (typeof window.fbq === "function") {
+      console.log("Disparando evento Purchase");
       fbq("track", "Purchase", {
         currency: "USD",
-        value: 59.9, 
+        value: 59.9,
       });
+    } else {
+      console.error("fbq não está carregado");
     }
   };
+  
 
   return (
     // faltando responsividade em altura 
