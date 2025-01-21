@@ -5,7 +5,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-
   return (
     <html lang="en">
       <head>
@@ -21,19 +20,24 @@ export default function RootLayout({
               t.src=v;s=b.getElementsByTagName(e)[0];
               s.parentNode.insertBefore(t,s)}(window, document,'script',
               'https://connect.facebook.net/en_US/fbevents.js');
-              fbq('init', '506961385431018');
+              fbq('init', '506961385431018'); 
               fbq('track', 'PageView');
             `,
           }}
         />
-        {/* <noscript>
-          <img
-            height="1"
-            width="1"
-            style={{ display: 'none' }}
-            src="https://www.facebook.com/tr?id=506961385431018&ev=PageView&noscript=1"
-          />
-        </noscript> */}
+        {/* Evento personalizado de compra */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.addEventListener('purchaseEvent', function () {
+                fbq('track', 'Purchase', {
+                  currency: 'USD',
+                  value: 142.52,
+                });
+              });
+            `,
+          }}
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <body>
