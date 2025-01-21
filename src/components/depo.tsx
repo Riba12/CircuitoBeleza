@@ -98,7 +98,9 @@ export default function Depo({ onCompra }: PropsWithChildren<CompraProps>) {
                         </div>
                         <div>
                             <Link href="https://pay.kiwify.com.br/qJvU4jo" passHref legacyBehavior >
-                                <a target='_blank' className="w-96 p-4 rounded-full text-center bg-laranja-500 text-xl md:text-3xl hover:bg-gray-400">
+                                <a target='_blank' className="w-96 p-4 rounded-full text-center bg-laranja-500 text-xl md:text-3xl hover:bg-gray-400"
+                                onClick={onCompra}
+                                >
                                     Quero mudar de vida agora
                                 </a>
                             </Link>

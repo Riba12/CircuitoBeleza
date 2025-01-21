@@ -32,7 +32,7 @@ export default function RootLayout({
               window.addEventListener('purchaseEvent', function () {
                 fbq('track', 'Purchase', {
                   currency: 'USD',
-                  value: 142.52,
+                  value: 59.9,
                 });
               });
             `,

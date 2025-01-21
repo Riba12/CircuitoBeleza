@@ -123,7 +123,9 @@ export default function Ebook({ onCompra }: PropsWithChildren<CompraProps>) {
                     </div>
                     <div className=" flex justify-center m-2 p-4">
                     <Link href="https://pay.kiwify.com.br/qJvU4jo" passHref legacyBehavior >
-                        <a target='_blank' className="w-96 py-4 rounded-full text-center bg-laranja-500 text-xl md:text-3xl hover:bg-gray-400">
+                        <a target='_blank' className="w-96 py-4 rounded-full text-center bg-laranja-500 text-xl md:text-3xl hover:bg-gray-400"
+                        onClick={onCompra}
+                        >
                             Garanta o seu agora
                         </a>
                     </Link>
