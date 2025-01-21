@@ -97,7 +97,7 @@ export default function Depo({ onCompra }: PropsWithChildren<CompraProps>) {
                             ou 5x de R$ 19,40
                         </div>
                         <div>
-                            <Link href="https://pay.kiwify.com.br/qJvU4jo" passHref legacyBehavior >
+                            <Link href="https://pay.kiwify.com.br/EmmiDHO" passHref legacyBehavior >
                                 <a target='_blank' className="w-96 p-4 rounded-full text-center bg-laranja-500 text-xl md:text-3xl hover:bg-gray-400"
                                 onClick={onCompra}
                                 >

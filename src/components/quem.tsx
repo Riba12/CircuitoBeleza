@@ -42,7 +42,7 @@ export default function Quem({ onCompra }: PropsWithChildren<CompraProps>) {
                         </div>
                     </div>
                     <div className="mt-5 flex justify-center">
-                        <Link href="https://pay.kiwify.com.br/qJvU4jo" passHref legacyBehavior >
+                        <Link href="https://pay.kiwify.com.br/EmmiDHO" passHref legacyBehavior >
                             <a target='_blank' className="w-72 py-4 rounded-full text-center bg-laranja-500 text-xl md:text-3xl hover:bg-gray-400"
                             onClick={onCompra}
                             >

@@ -34,7 +34,7 @@ export default function Landing({ onCompra }: PropsWithChildren<CompraProps>) {
                             Eleve sua carreira na área da beleza com técnicas práticas e conteúdos dinâmicos de alta qualidade que você precisa para ir mais longe.
                         </div>
                         <div className="motion-preset-blur-left-lg motion-delay-1500 motion-duration-2000 mb-10 w-4/5 md:mt-0">
-                            <Link href="https://pay.kiwify.com.br/qJvU4jo" passHref legacyBehavior className="w-full">
+                            <Link href="https://pay.kiwify.com.br/EmmiDHO" passHref legacyBehavior className="w-full">
                                 <a target='_blank' className="w-72 p-4 rounded-full text-center bg-laranja-500 text-white text-sm md:text-2xl 2xl:text-3xl hover:bg-gray-400"
                                 onClick={onCompra}
                                 >
