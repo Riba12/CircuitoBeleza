@@ -1,6 +1,11 @@
 import Link from "next/link";
+import { PropsWithChildren } from "react";
 
-export default function Quem() {
+type CompraProps = {
+    onCompra: () => void;
+}
+
+export default function Quem({ onCompra }: PropsWithChildren<CompraProps>) {
 
     return (
         <>

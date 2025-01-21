@@ -9,12 +9,16 @@ import {
     CarouselPrevious,
 } from "@/components/ui/carousel"
 import Autoplay from "embla-carousel-autoplay"
-
 import { Card, CardContent } from "@/components/ui/card"
-import { useRef } from "react";
+import { PropsWithChildren, useRef } from "react";
 import Link from "next/link";
 
-export default function Depo() {
+
+type CompraProps = {
+    onCompra: () => void;
+}
+
+export default function Depo({ onCompra }: PropsWithChildren<CompraProps>) {
 
     const plugin = useRef(
         Autoplay({ delay: 4000, stopOnInteraction: true })

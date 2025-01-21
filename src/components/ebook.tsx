@@ -15,9 +15,14 @@ import {
 
 import { Speech, Scissors, ChartNoAxesCombined, Asterisk } from 'lucide-react';
 import Link from "next/link";
+import { PropsWithChildren } from "react";
 
 
-export default function Ebook() {
+type CompraProps = {
+    onCompra: () => void;
+}
+
+export default function Ebook({ onCompra }: PropsWithChildren<CompraProps>) {
 
     return (
         <div className="bg-gray-100 flex">

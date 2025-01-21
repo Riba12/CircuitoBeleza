@@ -2,18 +2,15 @@ import Link from "next/link";
 import Image from 'next/image'
 import chica from '../../public/chica2.png'
 import logo from '../../public/logo1.png'
+import { PropsWithChildren } from "react";
 
 
-export default function Landing() {
+type CompraProps = {
+    onCompra: () => void;
+}
 
-    const lidarCompra = () => {
-        if (typeof window.fbq === "function") {
-          fbq("track", "Purchase", {
-            currency: "USD",
-            value: 142.52, 
-          });
-        }
-      };
+export default function Landing({ onCompra }: PropsWithChildren<CompraProps>) {
+
 
     return (
         <>
@@ -39,7 +36,7 @@ export default function Landing() {
                         <div className="motion-preset-blur-left-lg motion-delay-1500 motion-duration-2000 mb-10 w-4/5 md:mt-0">
                             <Link href="https://pay.kiwify.com.br/qJvU4jo" passHref legacyBehavior className="w-full">
                                 <a target='_blank' className="w-72 p-4 rounded-full text-center bg-laranja-500 text-white text-sm md:text-2xl 2xl:text-3xl hover:bg-gray-400"
-                                onClick={lidarCompra}
+                                onClick={onCompra}
                                 >
                                     Comprar Agora
                                 </a>

@@ -22,17 +22,27 @@ function ScrollToComponent(componentId: string) {
 }
 
 export default function Home() {
+
+  const lidarCompra = () => {
+    if (typeof window.fbq === "function") {
+      fbq("track", "Purchase", {
+        currency: "USD",
+        value: 59.9, 
+      });
+    }
+  };
+
   return (
     // faltando responsividade em altura 
     <main className="w-full md:min-w-max font-century font-semibold bg-gray-100">
       <Head scrollToComponent={ScrollToComponent} />
-      <Landing />
-      <Quem />
+      <Landing onCompra={lidarCompra}/>
+      <Quem onCompra={lidarCompra}/>
       <div id="1">
-        <Ebook />
+        <Ebook onCompra={lidarCompra}/>
       </div>
       <div id="2">
-        <Depo />
+        <Depo onCompra={lidarCompra}/>
       </div>
       <div id="3">
         <Cursos />
