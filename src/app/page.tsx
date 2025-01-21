@@ -27,7 +27,7 @@ export default function Home() {
     if (typeof window.fbq === "function") {
       console.log("Disparando evento Purchase");
       fbq("track", "Purchase", {
-        currency: "USD",
+        currency: "BRL",
         value: 59.9,
       });
     } else {

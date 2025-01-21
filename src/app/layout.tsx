@@ -31,7 +31,7 @@ export default function RootLayout({
             __html: `
               window.addEventListener('purchaseEvent', function () {
                 fbq('track', 'Purchase', {
-                  currency: 'USD',
+                  currency: 'BRL',
                   value: 59.9,
                 });
               });
