@@ -26,7 +26,7 @@ export default function RootLayout({
           }}
         />
         {/* Evento personalizado de compra */}
-        <script
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `
               window.addEventListener('purchaseEvent', function () {
@@ -37,7 +37,7 @@ export default function RootLayout({
               });
             `,
           }}
-        />
+        /> */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <body>

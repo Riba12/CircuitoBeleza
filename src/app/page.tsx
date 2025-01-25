@@ -23,15 +23,23 @@ function ScrollToComponent(componentId: string) {
 
 export default function Home() {
 
-  const lidarCompra = () => {
-    if (typeof window.fbq === "function") {
-      console.log("Disparando evento Purchase");
-      fbq("track", "Purchase", {
-        currency: "BRL",
-        value: 59.9,
+  const lidarCompra = async () => {
+    try {
+      const response = await fetch('/api/meta-events', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          event_name: 'Purchase',
+          value: 59.9,
+          currency: 'BRL',
+          email: 'seu.email@exemplo.com', // Substitua ou capture o e-mail do cliente
+        }),
       });
-    } else {
-      console.error("fbq não está carregado");
+  
+      const result = await response.json();
+      console.log('Resposta da API Meta:', result);
+    } catch (error) {
+      console.error('Erro ao enviar evento:', error);
     }
   };
   

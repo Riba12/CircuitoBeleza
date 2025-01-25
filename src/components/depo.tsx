@@ -88,13 +88,13 @@ export default function Depo({ onCompra }: PropsWithChildren<CompraProps>) {
                             </div>
                             <div className='my-5'>Aproveite o conteúdo em qualquer dispositivo.</div>
                         </div>
-                        <div className='text-red-600'>De <del>R$ 197,00</del></div>
+                        <div className='text-red-600'>De <del>R$ 149,90</del></div>
                         <div className='text-3xl'>POR APENAS</div>
                         <div className="text-7xl">
-                            R$ 97,00
+                            R$ 59,90
                         </div>
                         <div className="text-yellow-600">
-                            ou 5x de R$ 19,40
+                            ou 6x de R$ 11,05
                         </div>
                         <div>
                             <Link href="https://pay.kiwify.com.br/EmmiDHO" passHref legacyBehavior >
